@@ -1,0 +1,261 @@
+23-Nov-2017 10:42:53.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+23-Nov-2017 10:42:53.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+23-Nov-2017 10:42:53.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+23-Nov-2017 10:42:53.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-Nov-2017 10:42:53.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-693.2.2.el7.x86_64
+23-Nov-2017 10:42:53.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Nov-2017 10:42:53.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/jdk1.8.0_144/jre
+23-Nov-2017 10:42:53.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+23-Nov-2017 10:42:53.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Nov-2017 10:42:53.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /work/webserver/tomcat-serviceAirTime-8.5.23
+23-Nov-2017 10:42:53.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /work/webserver/tomcat-serviceAirTime-8.5.23
+23-Nov-2017 10:42:53.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/work/webserver/tomcat-serviceAirTime-8.5.23/conf/logging.properties
+23-Nov-2017 10:42:53.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Nov-2017 10:42:53.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Nov-2017 10:42:53.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Nov-2017 10:42:53.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/work/webserver/tomcat-serviceAirTime-8.5.23
+23-Nov-2017 10:42:53.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/work/webserver/tomcat-serviceAirTime-8.5.23
+23-Nov-2017 10:42:53.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/work/webserver/tomcat-serviceAirTime-8.5.23/temp
+23-Nov-2017 10:42:53.622 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+23-Nov-2017 10:42:53.758 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8686"]
+23-Nov-2017 10:42:53.775 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Nov-2017 10:42:53.778 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Nov-2017 10:42:53.779 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Nov-2017 10:42:53.779 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 587 ms
+23-Nov-2017 10:42:53.803 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Nov-2017 10:42:53.803 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+23-Nov-2017 10:42:54.774 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Nov-2017 10:42:55.513 INFO [airtime.kenhthe.vn-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Nov-2017 10:42:55.778 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8686"]
+23-Nov-2017 10:42:55.785 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Nov-2017 10:42:55.787 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2007 ms
+23-Nov-2017 10:43:10.822 INFO [Thread-24] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8686"]
+23-Nov-2017 10:43:10.826 INFO [Thread-24] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Nov-2017 10:43:10.877 INFO [Thread-24] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Nov-2017 10:43:10.889 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [service] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-Nov-2017 10:43:10.891 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [service] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.jconfig.FileWatcher.run(FileWatcher.java:105)
+ java.lang.Thread.run(Thread.java:748)
+23-Nov-2017 10:43:10.905 SEVERE [airtime.kenhthe.vn-startStop-2] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [com.htc.services.airtime.config.MyContext]
+ java.lang.ExceptionInInitializerError
+	at com.htc.services.airtime.config.MyContext.contextDestroyed(MyContext.java:111)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4792)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5429)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1435)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Pool manager no longer valid for use
+	at snaq.db.ConnectionPoolManager.getPool(ConnectionPoolManager.java:1173)
+	at com.htc.services.airtime.db.PoolMng.getConnPool(PoolMng.java:37)
+	at com.htc.services.airtime.db.DBPool.CreatePool(DBPool.java:16)
+	at com.htc.services.airtime.db.DBPool.<clinit>(DBPool.java:23)
+	... 10 more
+
+23-Nov-2017 10:43:10.908 WARNING [airtime.kenhthe.vn-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [service] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-Nov-2017 10:43:10.909 WARNING [airtime.kenhthe.vn-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [service] appears to have started a thread named [Thread-16] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.jconfig.FileWatcher.run(FileWatcher.java:105)
+ java.lang.Thread.run(Thread.java:748)
+23-Nov-2017 10:43:10.911 INFO [Thread-24] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8686"]
+23-Nov-2017 10:43:10.912 INFO [Thread-24] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Nov-2017 10:43:10.914 INFO [Thread-24] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8686"]
+23-Nov-2017 10:43:10.915 INFO [Thread-24] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-Nov-2017 10:43:15.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+23-Nov-2017 10:43:15.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+23-Nov-2017 10:43:15.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+23-Nov-2017 10:43:15.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-Nov-2017 10:43:15.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-693.2.2.el7.x86_64
+23-Nov-2017 10:43:15.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Nov-2017 10:43:15.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/jdk1.8.0_144/jre
+23-Nov-2017 10:43:15.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+23-Nov-2017 10:43:15.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Nov-2017 10:43:15.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /work/webserver/tomcat-serviceAirTime-8.5.23
+23-Nov-2017 10:43:15.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /work/webserver/tomcat-serviceAirTime-8.5.23
+23-Nov-2017 10:43:15.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/work/webserver/tomcat-serviceAirTime-8.5.23/conf/logging.properties
+23-Nov-2017 10:43:15.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Nov-2017 10:43:15.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Nov-2017 10:43:15.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Nov-2017 10:43:15.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/work/webserver/tomcat-serviceAirTime-8.5.23
+23-Nov-2017 10:43:15.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/work/webserver/tomcat-serviceAirTime-8.5.23
+23-Nov-2017 10:43:15.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/work/webserver/tomcat-serviceAirTime-8.5.23/temp
+23-Nov-2017 10:43:15.123 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+23-Nov-2017 10:43:15.259 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8686"]
+23-Nov-2017 10:43:15.276 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Nov-2017 10:43:15.279 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Nov-2017 10:43:15.280 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Nov-2017 10:43:15.281 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 577 ms
+23-Nov-2017 10:43:15.304 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Nov-2017 10:43:15.304 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+23-Nov-2017 10:43:16.293 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Nov-2017 10:43:17.006 INFO [airtime.kenhthe.vn-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Nov-2017 10:43:17.276 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8686"]
+23-Nov-2017 10:43:17.285 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Nov-2017 10:43:17.286 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2005 ms
+23-Nov-2017 10:44:17.950 INFO [Thread-24] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8686"]
+23-Nov-2017 10:44:17.953 INFO [Thread-24] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Nov-2017 10:44:18.004 INFO [Thread-24] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Nov-2017 10:44:18.016 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [service] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-Nov-2017 10:44:18.020 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [service] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.jconfig.FileWatcher.run(FileWatcher.java:105)
+ java.lang.Thread.run(Thread.java:748)
+23-Nov-2017 10:44:18.030 SEVERE [airtime.kenhthe.vn-startStop-2] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [com.htc.services.airtime.config.MyContext]
+ java.lang.ExceptionInInitializerError
+	at com.htc.services.airtime.config.MyContext.contextDestroyed(MyContext.java:111)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4792)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5429)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1435)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Pool manager no longer valid for use
+	at snaq.db.ConnectionPoolManager.getPool(ConnectionPoolManager.java:1173)
+	at com.htc.services.airtime.db.PoolMng.getConnPool(PoolMng.java:37)
+	at com.htc.services.airtime.db.DBPool.CreatePool(DBPool.java:16)
+	at com.htc.services.airtime.db.DBPool.<clinit>(DBPool.java:23)
+	... 10 more
+
+23-Nov-2017 10:44:18.033 WARNING [airtime.kenhthe.vn-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [service] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-Nov-2017 10:44:18.033 WARNING [airtime.kenhthe.vn-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [service] appears to have started a thread named [Thread-16] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.jconfig.FileWatcher.run(FileWatcher.java:105)
+ java.lang.Thread.run(Thread.java:748)
+23-Nov-2017 10:44:18.035 INFO [Thread-24] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8686"]
+23-Nov-2017 10:44:18.037 INFO [Thread-24] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Nov-2017 10:44:18.041 INFO [Thread-24] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8686"]
+23-Nov-2017 10:44:18.042 INFO [Thread-24] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-Nov-2017 10:44:39.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+23-Nov-2017 10:44:39.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+23-Nov-2017 10:44:39.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+23-Nov-2017 10:44:39.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-Nov-2017 10:44:39.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-693.2.2.el7.x86_64
+23-Nov-2017 10:44:39.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Nov-2017 10:44:39.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/jdk1.8.0_144/jre
+23-Nov-2017 10:44:39.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+23-Nov-2017 10:44:39.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Nov-2017 10:44:39.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /work/webserver/tomcat-serviceAirTime-8.5.23
+23-Nov-2017 10:44:39.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /work/webserver/tomcat-serviceAirTime-8.5.23
+23-Nov-2017 10:44:39.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/work/webserver/tomcat-serviceAirTime-8.5.23/conf/logging.properties
+23-Nov-2017 10:44:39.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Nov-2017 10:44:39.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Nov-2017 10:44:39.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Nov-2017 10:44:39.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/work/webserver/tomcat-serviceAirTime-8.5.23
+23-Nov-2017 10:44:39.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/work/webserver/tomcat-serviceAirTime-8.5.23
+23-Nov-2017 10:44:39.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/work/webserver/tomcat-serviceAirTime-8.5.23/temp
+23-Nov-2017 10:44:39.840 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+23-Nov-2017 10:44:39.974 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8686"]
+23-Nov-2017 10:44:39.991 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Nov-2017 10:44:39.994 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Nov-2017 10:44:39.995 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Nov-2017 10:44:39.996 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 577 ms
+23-Nov-2017 10:44:40.019 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Nov-2017 10:44:40.020 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+23-Nov-2017 10:44:41.002 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Nov-2017 10:44:41.713 INFO [airtime.kenhthe.vn-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Nov-2017 10:44:42.020 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8686"]
+23-Nov-2017 10:44:42.028 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Nov-2017 10:44:42.029 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2033 ms
+23-Nov-2017 10:53:34.823 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/service] has started
+23-Nov-2017 10:53:34.834 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [service] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.jconfig.FileWatcher.run(FileWatcher.java:105)
+ java.lang.Thread.run(Thread.java:748)
+23-Nov-2017 10:53:34.865 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource Unable to process web resource [/WEB-INF/classes/com/htc/servelet/airtime/Otp_1.class] for annotations
+ java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readID(ClassParser.java:199)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:78)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2053)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1952)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1946)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1946)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1946)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1946)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1153)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5105)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3800)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:292)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5563)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:748)
+
+23-Nov-2017 10:53:35.407 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/service] is completed
+23-Nov-2017 10:53:35.414 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/service] has started
+23-Nov-2017 10:53:35.423 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [service] appears to have started a thread named [Thread-16] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.jconfig.FileWatcher.run(FileWatcher.java:105)
+ java.lang.Thread.run(Thread.java:748)
+23-Nov-2017 10:53:35.446 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource Unable to process web resource [/WEB-INF/classes/com/htc/services/airtime/ChargeRequest_2.class] for annotations
+ java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readID(ClassParser.java:199)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:78)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2053)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1952)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1946)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1946)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1946)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1946)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1153)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5105)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3800)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:292)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5563)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:748)
+
+23-Nov-2017 10:53:35.918 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/service] is completed
+23-Nov-2017 10:53:37.151 INFO [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.jconfig.event.FileListenerEvent]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.jconfig.event.FileListenerEvent]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1299)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.jconfig.FileWatcher.checkFile(FileWatcher.java:142)
+	at org.jconfig.FileWatcher.run(FileWatcher.java:110)
+	at java.lang.Thread.run(Thread.java:748)
+
+23-Nov-2017 10:53:37.836 INFO [Thread-16] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.jconfig.event.FileListenerEvent]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.jconfig.event.FileListenerEvent]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1299)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.jconfig.FileWatcher.checkFile(FileWatcher.java:142)
+	at org.jconfig.FileWatcher.run(FileWatcher.java:110)
+	at java.lang.Thread.run(Thread.java:748)
+
+23-Nov-2017 10:53:45.922 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/service] has started
+23-Nov-2017 10:53:45.942 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [service] appears to have started a thread named [Thread-35] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.jconfig.FileWatcher.run(FileWatcher.java:105)
+ java.lang.Thread.run(Thread.java:748)
+23-Nov-2017 10:53:46.414 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/service] is completed
+23-Nov-2017 10:53:46.416 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/service] has started
+23-Nov-2017 10:53:46.426 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [service] appears to have started a thread named [Thread-45] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.jconfig.FileWatcher.run(FileWatcher.java:105)
+ java.lang.Thread.run(Thread.java:748)
+23-Nov-2017 10:53:47.024 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/service] is completed

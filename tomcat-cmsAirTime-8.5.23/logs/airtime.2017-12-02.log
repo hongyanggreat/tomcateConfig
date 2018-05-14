@@ -1,0 +1,8 @@
+2017-12-02 11:11:35 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@719a42fb
+2017-12-02 11:11:59 INFO  MyContext:120 - config.xml
+2017-12-02 11:12:00 INFO  MyContext:127 - file config successfully processed
+2017-12-02 11:12:00 INFO  MyContext:128 - get Config From ConfigurationManager
+2017-12-02 11:18:51 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@5475e482
+2017-12-02 11:19:16 INFO  MyContext:120 - config.xml
+2017-12-02 11:19:16 INFO  MyContext:127 - file config successfully processed
+2017-12-02 11:19:16 INFO  MyContext:128 - get Config From ConfigurationManager

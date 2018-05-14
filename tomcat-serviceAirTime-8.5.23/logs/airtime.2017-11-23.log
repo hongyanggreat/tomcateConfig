@@ -1,0 +1,403 @@
+2017-11-23 10:42:54 INFO  MyContext:132 - config.xml
+2017-11-23 10:42:54 INFO  MyContext:139 - file config successfully processed
+2017-11-23 10:42:54 INFO  MyContext:140 - get Config From ConfigurationManager
+2017-11-23 10:42:54 INFO  CheckPriceCacheManager:79 - Clean Cache CheckPriceCacheManager: 2017-11-23 10:42:54.913
+2017-11-23 10:42:55 INFO  MyContext:132 - config.xml
+2017-11-23 10:42:55 INFO  MyContext:139 - file config successfully processed
+2017-11-23 10:42:55 INFO  MyContext:140 - get Config From ConfigurationManager
+2017-11-23 10:42:55 INFO  CheckPriceCacheManager:79 - Clean Cache CheckPriceCacheManager: 2017-11-23 10:42:55.601
+2017-11-23 10:43:10 ERROR ReqCacheManager:90 - 2017-11-23 10:43:10.882||sleep interrupted||java.lang.Thread.sleep(Native Method)	
+com.htc.services.airtime.thread.ReqCacheManager.run(ReqCacheManager.java:87)	
+
+2017-11-23 10:43:10 ERROR ReqOtpCacheManager:90 - 2017-11-23 10:43:10.882||sleep interrupted||java.lang.Thread.sleep(Native Method)	
+com.htc.services.airtime.thread.ReqOtpCacheManager.run(ReqOtpCacheManager.java:87)	
+
+2017-11-23 10:43:10 ERROR ReqCacheManager:90 - 2017-11-23 10:43:10.904||sleep interrupted||java.lang.Thread.sleep(Native Method)	
+com.htc.services.airtime.thread.ReqCacheManager.run(ReqCacheManager.java:87)	
+
+2017-11-23 10:43:10 ERROR ReqOtpCacheManager:90 - 2017-11-23 10:43:10.904||sleep interrupted||java.lang.Thread.sleep(Native Method)	
+com.htc.services.airtime.thread.ReqOtpCacheManager.run(ReqOtpCacheManager.java:87)	
+
+2017-11-23 10:43:16 INFO  MyContext:132 - config.xml
+2017-11-23 10:43:16 INFO  MyContext:139 - file config successfully processed
+2017-11-23 10:43:16 INFO  MyContext:140 - get Config From ConfigurationManager
+2017-11-23 10:43:16 INFO  CheckPriceCacheManager:79 - Clean Cache CheckPriceCacheManager: 2017-11-23 10:43:16.407
+2017-11-23 10:43:17 INFO  MyContext:132 - config.xml
+2017-11-23 10:43:17 INFO  MyContext:139 - file config successfully processed
+2017-11-23 10:43:17 INFO  MyContext:140 - get Config From ConfigurationManager
+2017-11-23 10:43:17 INFO  CheckPriceCacheManager:79 - Clean Cache CheckPriceCacheManager: 2017-11-23 10:43:17.095
+2017-11-23 10:44:18 ERROR ReqOtpCacheManager:90 - 2017-11-23 10:44:18.009||sleep interrupted||java.lang.Thread.sleep(Native Method)	
+com.htc.services.airtime.thread.ReqOtpCacheManager.run(ReqOtpCacheManager.java:87)	
+
+2017-11-23 10:44:18 ERROR ReqCacheManager:90 - 2017-11-23 10:44:18.009||sleep interrupted||java.lang.Thread.sleep(Native Method)	
+com.htc.services.airtime.thread.ReqCacheManager.run(ReqCacheManager.java:87)	
+
+2017-11-23 10:44:18 ERROR ReqCacheManager:90 - 2017-11-23 10:44:18.029||sleep interrupted||java.lang.Thread.sleep(Native Method)	
+com.htc.services.airtime.thread.ReqCacheManager.run(ReqCacheManager.java:87)	
+
+2017-11-23 10:44:18 ERROR ReqOtpCacheManager:90 - 2017-11-23 10:44:18.03||sleep interrupted||java.lang.Thread.sleep(Native Method)	
+com.htc.services.airtime.thread.ReqOtpCacheManager.run(ReqOtpCacheManager.java:87)	
+
+2017-11-23 10:44:41 INFO  MyContext:132 - config.xml
+2017-11-23 10:44:41 INFO  MyContext:139 - file config successfully processed
+2017-11-23 10:44:41 INFO  MyContext:140 - get Config From ConfigurationManager
+2017-11-23 10:44:41 INFO  CheckPriceCacheManager:79 - Clean Cache CheckPriceCacheManager: 2017-11-23 10:44:41.119
+2017-11-23 10:44:41 INFO  MyContext:132 - config.xml
+2017-11-23 10:44:41 INFO  MyContext:139 - file config successfully processed
+2017-11-23 10:44:41 INFO  MyContext:140 - get Config From ConfigurationManager
+2017-11-23 10:44:41 INFO  CheckPriceCacheManager:79 - Clean Cache CheckPriceCacheManager: 2017-11-23 10:44:41.803
+2017-11-23 10:45:49 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 10:46:11 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 10:47:34 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 10:47:55 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 10:48:05 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 10:48:15 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 10:48:58 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 10:51:19 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 10:53:34 ERROR ReqCacheManager:90 - 2017-11-23 10:53:34.827||sleep interrupted||java.lang.Thread.sleep(Native Method)	
+com.htc.services.airtime.thread.ReqCacheManager.run(ReqCacheManager.java:87)	
+
+2017-11-23 10:53:34 ERROR ReqOtpCacheManager:90 - 2017-11-23 10:53:34.827||sleep interrupted||java.lang.Thread.sleep(Native Method)	
+com.htc.services.airtime.thread.ReqOtpCacheManager.run(ReqOtpCacheManager.java:87)	
+
+2017-11-23 10:53:34 INFO  MyContext:119 - deregistering jdbc driver: com.mysql.jdbc.Driver@19ec62af
+2017-11-23 10:53:35 INFO  MyContext:132 - config.xml
+2017-11-23 10:53:35 INFO  MyContext:139 - file config successfully processed
+2017-11-23 10:53:35 INFO  MyContext:140 - get Config From ConfigurationManager
+2017-11-23 10:53:35 INFO  CheckPriceCacheManager:79 - Clean Cache CheckPriceCacheManager: 2017-11-23 10:53:35.404
+2017-11-23 10:53:35 ERROR ReqCacheManager:90 - 2017-11-23 10:53:35.419||sleep interrupted||java.lang.Thread.sleep(Native Method)	
+com.htc.services.airtime.thread.ReqCacheManager.run(ReqCacheManager.java:87)	
+
+2017-11-23 10:53:35 ERROR ReqOtpCacheManager:90 - 2017-11-23 10:53:35.42||sleep interrupted||java.lang.Thread.sleep(Native Method)	
+com.htc.services.airtime.thread.ReqOtpCacheManager.run(ReqOtpCacheManager.java:87)	
+
+2017-11-23 10:53:35 INFO  MyContext:119 - deregistering jdbc driver: com.mysql.jdbc.Driver@3fe7601b
+2017-11-23 10:53:35 INFO  MyContext:132 - config.xml
+2017-11-23 10:53:35 INFO  MyContext:139 - file config successfully processed
+2017-11-23 10:53:35 INFO  MyContext:140 - get Config From ConfigurationManager
+2017-11-23 10:53:35 INFO  CheckPriceCacheManager:79 - Clean Cache CheckPriceCacheManager: 2017-11-23 10:53:35.914
+2017-11-23 10:53:45 ERROR ReqOtpCacheManager:90 - 2017-11-23 10:53:45.924||sleep interrupted||java.lang.Thread.sleep(Native Method)	
+com.htc.services.airtime.thread.ReqOtpCacheManager.run(ReqOtpCacheManager.java:87)	
+
+2017-11-23 10:53:45 ERROR ReqCacheManager:90 - 2017-11-23 10:53:45.924||sleep interrupted||java.lang.Thread.sleep(Native Method)	
+com.htc.services.airtime.thread.ReqCacheManager.run(ReqCacheManager.java:87)	
+
+2017-11-23 10:53:45 INFO  MyContext:119 - deregistering jdbc driver: com.mysql.jdbc.Driver@7591802
+2017-11-23 10:53:46 INFO  MyContext:132 - config.xml
+2017-11-23 10:53:46 INFO  MyContext:139 - file config successfully processed
+2017-11-23 10:53:46 INFO  MyContext:140 - get Config From ConfigurationManager
+2017-11-23 10:53:46 INFO  CheckPriceCacheManager:79 - Clean Cache CheckPriceCacheManager: 2017-11-23 10:53:46.411
+2017-11-23 10:53:46 ERROR ReqOtpCacheManager:90 - 2017-11-23 10:53:46.417||sleep interrupted||java.lang.Thread.sleep(Native Method)	
+com.htc.services.airtime.thread.ReqOtpCacheManager.run(ReqOtpCacheManager.java:87)	
+
+2017-11-23 10:53:46 ERROR ReqCacheManager:90 - 2017-11-23 10:53:46.417||sleep interrupted||java.lang.Thread.sleep(Native Method)	
+com.htc.services.airtime.thread.ReqCacheManager.run(ReqCacheManager.java:87)	
+
+2017-11-23 10:53:46 INFO  MyContext:119 - deregistering jdbc driver: com.mysql.jdbc.Driver@6e79f4c3
+2017-11-23 10:53:46 INFO  MyContext:132 - config.xml
+2017-11-23 10:53:46 INFO  MyContext:139 - file config successfully processed
+2017-11-23 10:53:46 INFO  MyContext:140 - get Config From ConfigurationManager
+2017-11-23 10:53:47 INFO  CheckPriceCacheManager:79 - Clean Cache CheckPriceCacheManager: 2017-11-23 10:53:47.02
+2017-11-23 10:54:33 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 10:55:33 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 10:55:40 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 10:55:40 ERROR AirTime:483 - 2017-11-23 10:55:40.434||No value specified for parameter 2||com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)	
+com.mysql.jdbc.PreparedStatement.checkAllParametersSet(PreparedStatement.java:2611)	
+com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2586)	
+com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2510)	
+com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2259)	
+snaq.db.CachedPreparedStatement.executeQuery(CachedPreparedStatement.java:144)	
+com.htc.services.airtime.dao.AirTime.countRequestOtp(AirTime.java:477)	
+com.htc.services.airtime.entity.RequestOtp.checkReqOtp(RequestOtp.java:56)	
+com.htc.services.airtime.OtpRequest.getOtp(OtpRequest.java:204)	
+com.htc.servelet.airtime.Otp_1.processRequest(Otp_1.java:38)	
+com.htc.servelet.airtime.Otp_1.doGet(Otp_1.java:68)	
+javax.servlet.http.HttpServlet.service(HttpServlet.java:635)	
+javax.servlet.http.HttpServlet.service(HttpServlet.java:742)	
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)	
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)	
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)	
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)	
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)	
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)	
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)	
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)	
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)	
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)	
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)	
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)	
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)	
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)	
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)	
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)	
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)	
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)	
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)	
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)	
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)	
+java.lang.Thread.run(Thread.java:748)	
+
+2017-11-23 10:55:40 INFO  RSA:54 - BouncyCastle provider added.
+2017-11-23 10:55:40 INFO  RSA:58 - Instantiated public key: RSA Public Key
+            modulus: cfeab05bcd515aef9c94a883fb6f8722f4b1dbc43a30e5b060a8b03d14687b78e9557e6db72cd616d1b6bc4642ce9f5b906475161f0b9177b8b00da419be63cb4ad651a6513f75e35e00cdc209752699c3d6a5656871ac8c779c325ac756a5df64028573e05851dacd3504cac79d121bf2ea6bc105b7a93e52ab99c85d973479200450f89762ab8c0ed55a2930550faf6ab02db7f4b58efe79b15ad8527495ae41ee9a098db5cd1adb5dd8427ae3547f5260a30c3d7c41aeba41810099577e8d2c74639d160935c5b6545c7e251700a22e3426fdba1d6d7587232cee6a5ae3b20c918e897d984d5da3ffa7d9633742555cfc325a0f8af195048a9a5a9f9eb971afdf597b33d3e1e85906209a8f2801d55631e54b80db62a3edc162c1531a7182ac73b1cce932164f651d117d40b26e5effbfc40209d3eda6b7f5fb3562b51ff1246e0e327c2e8239d850da982ec573970eab6f82ec829316f6a7085757286cc551ac88f2cb3df3371e5c3cf3c5d0cd25a6aa789d0202472de56de340a44a522d7427512e625817df2705763deb8b5fea5bfc203cc882614cb085b1ea20851171915a1877479d3c6e46cc8074c2a30f6aa9c9a4d0c0bf2daddbfe316b369b2fa4ae020f31d0653bc6c5130f8831a4c0f97752df1e978dd5256480298efd02c797cb32b39e25ae6f203dbe0f6f30ce605e36f8e149b1c93d97c65a37fb1de280f1
+    public exponent: 10001
+
+2017-11-23 10:55:40 INFO  RSA:61 - Instantiated private key: RSA Public Key
+            modulus: c6e87ff1b26be98638c6e4391ba6db7cf06c56ca951fd1d0b7cf320dba724669093ff1f87709cdb520a94c7c3ec342baf821e172905e69bfb6e6558a5c606fecacadf40939788ae72e741f60c1ea69eea87bcbe4680fd5a5441fd39d039cb190067a42ca038ea5950dea3b764db62f12d14fa8f9f1132b518da02120e218701e2dcd8ee9a83aa8341829a76a1640392bb60631c3f24e56cb1adcf1600f95c982ee59d6e2d411196b626fcfaafa8013951599a933d40ed0a61221495667104fc0f674d7a42e5e398037004d0784442899c60093777973aa3f2671c60220134c64a0e0f74784e44a4fd2779fe5408a37944daebca439ccc903d726ac945c22986e5b7f1b88c56a6519a2be9e9cb763cf3476bd462e57f6a14a3e52ac371edad9b273020428c6c3483312ed45488ef46f0053ba187d567b05ec45f140920cf1602be7e9a1b6360da98ce87004a533c9340bb731fe91473b11481a94da5c841799c41ac099cc770e05a0d8a2cc41d7468fc07ee7ece29b048b5360376134d5d589016140f84c48e942b9900966aec5f82e1bf457c34d79be5460de6619762f8f8b722d3b04adc01e825ee43712afbfa4742eb2708dc16f64351373ff119cbdfc223e6a424d33a952e67fe468565016f5b663738972ec68ad78a5d1b167c83ebe21c919bfdcf086856438b9dc104a0944ab53dbf19678c19282cabdb6addb7c36f57f
+    public exponent: 10001
+
+2017-11-23 10:55:40 INFO  RSA:63 - Instantiated private key: RSA Private CRT Key
+            modulus: c6e87ff1b26be98638c6e4391ba6db7cf06c56ca951fd1d0b7cf320dba724669093ff1f87709cdb520a94c7c3ec342baf821e172905e69bfb6e6558a5c606fecacadf40939788ae72e741f60c1ea69eea87bcbe4680fd5a5441fd39d039cb190067a42ca038ea5950dea3b764db62f12d14fa8f9f1132b518da02120e218701e2dcd8ee9a83aa8341829a76a1640392bb60631c3f24e56cb1adcf1600f95c982ee59d6e2d411196b626fcfaafa8013951599a933d40ed0a61221495667104fc0f674d7a42e5e398037004d0784442899c60093777973aa3f2671c60220134c64a0e0f74784e44a4fd2779fe5408a37944daebca439ccc903d726ac945c22986e5b7f1b88c56a6519a2be9e9cb763cf3476bd462e57f6a14a3e52ac371edad9b273020428c6c3483312ed45488ef46f0053ba187d567b05ec45f140920cf1602be7e9a1b6360da98ce87004a533c9340bb731fe91473b11481a94da5c841799c41ac099cc770e05a0d8a2cc41d7468fc07ee7ece29b048b5360376134d5d589016140f84c48e942b9900966aec5f82e1bf457c34d79be5460de6619762f8f8b722d3b04adc01e825ee43712afbfa4742eb2708dc16f64351373ff119cbdfc223e6a424d33a952e67fe468565016f5b663738972ec68ad78a5d1b167c83ebe21c919bfdcf086856438b9dc104a0944ab53dbf19678c19282cabdb6addb7c36f57f
+    public exponent: 10001
+   private exponent: c01133b27c9a2d35d94f5c83348b4b77fa6472ee4d4f1b781275751cc283a42fbaa9cf8a1fd00c9db0fb298af3c3f284be23612211fbc8db41ce6a9d1f14541f52a2ea7999d0273892a7b8c0e29eeb4973d18e91705691f372b3d4cfd1f41595405c0070373d1ff0ad2e17dae5b15d052bae63396e2b177239727d6ad647c8c3ab70c9662076fb82ca2e36a57ef4e6ffa95593ea64e87670caf0bbf70935970ee1ff483b61915d5d4f012ea3281e524a6c40239d934ff6f3d59fe4c414e3304fe0ebf46a6a07bc386d63d1fdc71f55a11f0be159c5a205abd3009bb5e3a91ee43060eb06597163bc6e3beadf211216171367fe6a0a120facb0ad7c8a09e9b20b7269515ce1238926937844babaa747211c65a619e4600f8fd6c1f98d223d102f07abab81a58c93d104ebda38a9473f669e9f7e56252b18b35975ab5c1e16135851508e46642d63569b2671ada16698859b4beefc6aae0d1586036de4af8f80b18cb02fd4389e920773b3ff400aa60cdb1b26e964001de811f5d73ca899e505c3751bad81e300ff999f42327ade4cb2f63d1c49c649f082162854e55ce12c14ad8180e30fe6a7b2333b5c3c0dc87e04a2a9703d784448d9a898e29ef1df91b8844fff8e4c3ef5f539855cd0f00876287dbea59f2b257b44beefe2b558aea1aa7b4ef2c33f4c5598028b5e19c379d2aa5aaa17110fa1a5d9eb2cffd62392544691
+             primeP: e363f0079c9a0b3bb512887c5243b3f8d2abda73fe3e7a795fab70e226cfc8424ba7bf023eb71659c1db327076ca643ab949f73ce98fa8275c76c66b07825d90c78305201f790a186303f122f629b74e5feff94685754a2d2a8587463c806432fa82ba4c2748c9f77bb4cdd7759b4f6d22bfd7f159b50bb2b86008013d234e3d165c38948ad34580f299a02d2a2705568d48b7ac7defea05bf5f8167eba4f9c80c4ba32249a424a49eeb064a8792a8ec21f2c93bc39a9f86bade92fe9b95efa089d24b8de3725a062bf771adcf57744d736e5eb3db68e365953e2c3240a361a01465e3f141f17f2078a37cfee75afd55500c133cbb0570c3cf0d30a9df943989
+             primeQ: dfef2c87ff7f516c82e47f63cbedda2caff020352c2c5b955da71cfabc1f87135cdd861be66d97a8baba0f1aaa8c6dfad7f88def484ac693dca374fcc737407512d870c79bf39ced46abc43438ebe229be78d88350dead7ad6f99b096095ffa8a3ccf53e3fecfef518b62c3136a5877642496386f33c7a088e55ac7686287496b0af76218ed53dc9372cfaeacccdb62adceac36f087d3ce7718ddac289edc604482c503b4e5153b20d68b95953dea8154d1074949d8e371d2acdb84e57a74853eb075948395046930ed7f77620a51216aefabcc62f1756d7ca9fd4db82f28604571a6121abc52d7a234a861fa6a7c6d1b1b7a250de461e046db5979259895cc7
+     primeExponentP: a5f2453608df92db1c264e5d0c5c44778ea7c4616a66865315b2b44b17300461fd7c8a354537b0a40889c3a1b7cfb49df6a3383fc7e4033fd68707ff0c17e3d8c901a137f4400d5206d0d5a64227e792d708f6ceb48f087735d5050809175a08aa31c56bd62f94d57bfe534aae958dbd83e2a5e1892a4b433eb336a450cdf747358e4fec77f3ff813f8b460e2ff912383c1b998fd4c8c5ed33e0ab3c000902113087f2a20f442f49c48098b2c38610a9638d1fb6f1e5620e9d49d9d4de0eea362adec22ce69489867f87b1faba9a845211afb68563d6843d9a512947f34c48eede740d8a002a1230cc59e3dad354e014e6ba293fe4ecef82b714553363eb74a1
+     primeExponentQ: debec497de902149038610250f835f42961b0f9e747b06fa3336f83f7c030c54394a6c8cb20f8f0c99f85aefd6776b2a59cb763b6eb85a8057b70bb628df0fb1a47640f07c72bd44d3c82599208999e495ff14b6c2294d7c63fbd2b86827ac2f6e078066542604917dec2f572099547e507f398dd1c2f54c2f708ee5329b69253f48b903b654ec698b05a5ed0a9d10b7e019711eafde0b47d88f16ebed50e367fcf67f340eba1cbb7e550e1109b8ef8e88a276a4217885dff064c310c265b62f2b189b399930fd9267f070c942bd8f999aa1f4465a2f2805ec1a421bbb4c4bfc633bed2415fd43383b84749765297c3db73e0729d37f017abc3a2633bff63f9f
+     crtCoefficient: c9c747f259be19a221d3a220faf5af07bb2a6d876f5bb0adf91b380d0d47aed4f5d0c6f8bf84c9cc1712a8c3d96f1b6ddd04764b754616ff232ddfaea27661e039854fe9eaf6e4c8453b785e5956149e0485facd819a53f62454faad8a550be75bdf8598b10c5edb1834895ca354ea61237eaa37f7f835a8a30b49efb2e5577d03224faaa2c6585c2a38a44c49abd1ac24b47fc3d748ee3069d1cbc12260cd9aaca66fa625c1af851ab61cdb6ce4dcc4679229719464c3272ecc6883e30fc46667378872196bbe28da0d2763193ee946a3b2e1242600ed223c73ad69ad4eb6d507b8b76cd4dc6a95ec64c99128b778ae1ff6f77278ef4ce46c5277ac611344b5
+
+2017-11-23 10:56:14 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 10:56:34 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 10:57:10 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 10:57:19 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 11:02:45 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 11:02:53 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 11:02:53 ERROR AirTime:483 - 2017-11-23 11:02:53.985||No value specified for parameter 2||com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)	
+com.mysql.jdbc.PreparedStatement.checkAllParametersSet(PreparedStatement.java:2611)	
+com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2586)	
+com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2510)	
+com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2259)	
+snaq.db.CachedPreparedStatement.executeQuery(CachedPreparedStatement.java:144)	
+com.htc.services.airtime.dao.AirTime.countRequestOtp(AirTime.java:477)	
+com.htc.services.airtime.entity.RequestOtp.checkReqOtp(RequestOtp.java:56)	
+com.htc.services.airtime.OtpRequest.getOtp(OtpRequest.java:204)	
+com.htc.servelet.airtime.Otp_1.processRequest(Otp_1.java:38)	
+com.htc.servelet.airtime.Otp_1.doGet(Otp_1.java:68)	
+javax.servlet.http.HttpServlet.service(HttpServlet.java:635)	
+javax.servlet.http.HttpServlet.service(HttpServlet.java:742)	
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)	
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)	
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)	
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)	
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)	
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)	
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)	
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)	
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)	
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)	
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)	
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)	
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)	
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)	
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)	
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)	
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)	
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)	
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)	
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)	
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)	
+java.lang.Thread.run(Thread.java:748)	
+
+2017-11-23 11:03:59 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 11:04:17 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 12:56:27 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 13:56:22 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 13:56:22 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:16:30 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:18:17 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:18:17 ERROR AirTime:483 - 2017-11-23 14:18:17.5||No value specified for parameter 2||com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)	
+com.mysql.jdbc.PreparedStatement.checkAllParametersSet(PreparedStatement.java:2611)	
+com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2586)	
+com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2510)	
+com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2259)	
+snaq.db.CachedPreparedStatement.executeQuery(CachedPreparedStatement.java:144)	
+com.htc.services.airtime.dao.AirTime.countRequestOtp(AirTime.java:477)	
+com.htc.services.airtime.entity.RequestOtp.checkReqOtp(RequestOtp.java:56)	
+com.htc.services.airtime.OtpRequest.getOtp(OtpRequest.java:204)	
+com.htc.servelet.airtime.Otp_1.processRequest(Otp_1.java:38)	
+com.htc.servelet.airtime.Otp_1.doGet(Otp_1.java:68)	
+javax.servlet.http.HttpServlet.service(HttpServlet.java:635)	
+javax.servlet.http.HttpServlet.service(HttpServlet.java:742)	
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)	
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)	
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)	
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)	
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)	
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)	
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)	
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)	
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)	
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)	
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)	
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)	
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)	
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)	
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)	
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)	
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)	
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)	
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)	
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)	
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)	
+java.lang.Thread.run(Thread.java:748)	
+
+2017-11-23 14:18:37 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:18:43 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:28:42 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:28:49 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:28:59 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:29:02 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:29:03 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:29:11 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:29:16 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:29:23 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:29:32 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:29:40 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:29:43 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:29:45 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:29:49 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:29:49 ERROR AirTime:483 - 2017-11-23 14:29:49.782||No value specified for parameter 2||com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)	
+com.mysql.jdbc.PreparedStatement.checkAllParametersSet(PreparedStatement.java:2611)	
+com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2586)	
+com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2510)	
+com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2259)	
+snaq.db.CachedPreparedStatement.executeQuery(CachedPreparedStatement.java:144)	
+com.htc.services.airtime.dao.AirTime.countRequestOtp(AirTime.java:477)	
+com.htc.services.airtime.entity.RequestOtp.checkReqOtp(RequestOtp.java:56)	
+com.htc.services.airtime.OtpRequest.getOtp(OtpRequest.java:204)	
+com.htc.servelet.airtime.Otp_1.processRequest(Otp_1.java:38)	
+com.htc.servelet.airtime.Otp_1.doGet(Otp_1.java:68)	
+javax.servlet.http.HttpServlet.service(HttpServlet.java:635)	
+javax.servlet.http.HttpServlet.service(HttpServlet.java:742)	
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)	
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)	
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)	
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)	
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)	
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)	
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)	
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)	
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)	
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)	
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)	
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)	
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)	
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)	
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)	
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)	
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)	
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)	
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)	
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)	
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)	
+java.lang.Thread.run(Thread.java:748)	
+
+2017-11-23 14:29:58 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:30:04 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:30:10 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:30:18 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:30:24 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:30:30 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:30:35 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:30:40 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:31:02 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:31:06 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:31:23 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:31:37 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:31:37 ERROR AirTime:483 - 2017-11-23 14:31:37.063||No value specified for parameter 2||com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)	
+com.mysql.jdbc.PreparedStatement.checkAllParametersSet(PreparedStatement.java:2611)	
+com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2586)	
+com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2510)	
+com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2259)	
+snaq.db.CachedPreparedStatement.executeQuery(CachedPreparedStatement.java:144)	
+com.htc.services.airtime.dao.AirTime.countRequestOtp(AirTime.java:477)	
+com.htc.services.airtime.entity.RequestOtp.checkReqOtp(RequestOtp.java:56)	
+com.htc.services.airtime.OtpRequest.getOtp(OtpRequest.java:204)	
+com.htc.servelet.airtime.Otp_1.processRequest(Otp_1.java:38)	
+com.htc.servelet.airtime.Otp_1.doGet(Otp_1.java:68)	
+javax.servlet.http.HttpServlet.service(HttpServlet.java:635)	
+javax.servlet.http.HttpServlet.service(HttpServlet.java:742)	
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)	
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)	
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)	
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)	
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)	
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)	
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)	
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)	
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)	
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)	
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)	
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)	
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)	
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)	
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)	
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)	
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)	
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)	
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)	
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)	
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)	
+java.lang.Thread.run(Thread.java:748)	
+
+2017-11-23 14:31:44 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:31:50 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:31:58 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:36:50 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:36:58 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:36:58 ERROR AirTime:483 - 2017-11-23 14:36:58.539||No value specified for parameter 2||com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)	
+com.mysql.jdbc.PreparedStatement.checkAllParametersSet(PreparedStatement.java:2611)	
+com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2586)	
+com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2510)	
+com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2259)	
+snaq.db.CachedPreparedStatement.executeQuery(CachedPreparedStatement.java:144)	
+com.htc.services.airtime.dao.AirTime.countRequestOtp(AirTime.java:477)	
+com.htc.services.airtime.entity.RequestOtp.checkReqOtp(RequestOtp.java:56)	
+com.htc.services.airtime.OtpRequest.getOtp(OtpRequest.java:204)	
+com.htc.servelet.airtime.Otp_1.processRequest(Otp_1.java:38)	
+com.htc.servelet.airtime.Otp_1.doGet(Otp_1.java:68)	
+javax.servlet.http.HttpServlet.service(HttpServlet.java:635)	
+javax.servlet.http.HttpServlet.service(HttpServlet.java:742)	
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)	
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)	
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)	
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)	
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)	
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)	
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)	
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)	
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)	
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)	
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)	
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)	
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)	
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)	
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)	
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)	
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)	
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)	
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)	
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)	
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)	
+java.lang.Thread.run(Thread.java:748)	
+
+2017-11-23 14:37:18 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2017-11-23 14:37:33 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams

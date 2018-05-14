@@ -1,0 +1,4 @@
+2018-02-28 00:01:00 INFO  CheckPriceCacheManager:79 - Clean Cache CheckPriceCacheManager: 2018-02-28 00:01:00.0
+2018-02-28 00:01:00 INFO  CheckPriceCacheManager:79 - Clean Cache CheckPriceCacheManager: 2018-02-28 00:01:00.0
+2018-02-28 14:35:21 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams
+2018-02-28 14:35:39 WARN  JSONObject:431 - Tried to assign property result:java.lang.String to bean of class com.htc.services.airtime.entity.ChargingParams

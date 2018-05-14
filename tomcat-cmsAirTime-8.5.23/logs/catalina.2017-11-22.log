@@ -1,0 +1,245 @@
+22-Nov-2017 11:39:35.053 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.backgroundProcess Exception processing loader [WebappLoader[]] background process
+ java.lang.IllegalStateException: java.io.FileNotFoundException: /work/webroot/CmsAirTime/WEB-INF/lib/poi-examples-3.9.jar (No such file or directory)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+	at org.apache.catalina.loader.WebappClassLoaderBase.modified(WebappClassLoaderBase.java:686)
+	at org.apache.catalina.loader.WebappLoader.modified(WebappLoader.java:343)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:287)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5563)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: /work/webroot/CmsAirTime/WEB-INF/lib/poi-examples-3.9.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 14 more
+
+22-Nov-2017 11:39:45.055 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.backgroundProcess Exception processing loader [WebappLoader[]] background process
+ java.lang.IllegalStateException: java.io.FileNotFoundException: /work/webroot/CmsAirTime/WEB-INF/lib/poi-examples-3.9.jar (No such file or directory)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+	at org.apache.catalina.loader.WebappClassLoaderBase.modified(WebappClassLoaderBase.java:686)
+	at org.apache.catalina.loader.WebappLoader.modified(WebappLoader.java:343)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:287)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5563)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: /work/webroot/CmsAirTime/WEB-INF/lib/poi-examples-3.9.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 14 more
+
+22-Nov-2017 11:39:55.056 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.backgroundProcess Exception processing loader [WebappLoader[]] background process
+ java.lang.IllegalStateException: java.io.FileNotFoundException: /work/webroot/CmsAirTime/WEB-INF/lib/poi-examples-3.9.jar (No such file or directory)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+	at org.apache.catalina.loader.WebappClassLoaderBase.modified(WebappClassLoaderBase.java:686)
+	at org.apache.catalina.loader.WebappLoader.modified(WebappLoader.java:343)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:287)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5563)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: /work/webroot/CmsAirTime/WEB-INF/lib/poi-examples-3.9.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 14 more
+
+22-Nov-2017 11:40:05.057 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.backgroundProcess Exception processing loader [WebappLoader[]] background process
+ java.lang.IllegalStateException: java.io.FileNotFoundException: /work/webroot/CmsAirTime/WEB-INF/lib/poi-examples-3.9.jar (No such file or directory)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+	at org.apache.catalina.loader.WebappClassLoaderBase.modified(WebappClassLoaderBase.java:686)
+	at org.apache.catalina.loader.WebappLoader.modified(WebappLoader.java:343)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:287)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5563)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: /work/webroot/CmsAirTime/WEB-INF/lib/poi-examples-3.9.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 14 more
+
+22-Nov-2017 11:40:15.059 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.backgroundProcess Exception processing loader [WebappLoader[]] background process
+ java.lang.IllegalStateException: java.io.FileNotFoundException: /work/webroot/CmsAirTime/WEB-INF/lib/poi-examples-3.9.jar (No such file or directory)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+	at org.apache.catalina.loader.WebappClassLoaderBase.modified(WebappClassLoaderBase.java:686)
+	at org.apache.catalina.loader.WebappLoader.modified(WebappLoader.java:343)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:287)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5563)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: /work/webroot/CmsAirTime/WEB-INF/lib/poi-examples-3.9.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 14 more
+
+22-Nov-2017 11:40:25.060 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.backgroundProcess Exception processing loader [WebappLoader[]] background process
+ java.lang.IllegalStateException: java.io.FileNotFoundException: /work/webroot/CmsAirTime/WEB-INF/lib/poi-examples-3.9.jar (No such file or directory)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+	at org.apache.catalina.loader.WebappClassLoaderBase.modified(WebappClassLoaderBase.java:686)
+	at org.apache.catalina.loader.WebappLoader.modified(WebappLoader.java:343)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:287)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5563)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: /work/webroot/CmsAirTime/WEB-INF/lib/poi-examples-3.9.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 14 more
+
+22-Nov-2017 11:40:35.065 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+22-Nov-2017 11:40:35.075 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-14] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.jconfig.FileWatcher.run(FileWatcher.java:105)
+ java.lang.Thread.run(Thread.java:748)
+22-Nov-2017 11:40:35.755 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+22-Nov-2017 11:40:35.759 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal Context [] startup failed due to previous errors
+22-Nov-2017 11:40:35.763 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+22-Nov-2017 11:40:39.176 INFO [Thread-14] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.jconfig.event.FileListenerEvent]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.jconfig.event.FileListenerEvent]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1299)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.jconfig.FileWatcher.checkFile(FileWatcher.java:142)
+	at org.jconfig.FileWatcher.run(FileWatcher.java:110)
+	at java.lang.Thread.run(Thread.java:748)
+
+22-Nov-2017 11:40:39.352 INFO [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.jconfig.event.FileListenerEvent]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.jconfig.event.FileListenerEvent]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1299)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.jconfig.FileWatcher.checkFile(FileWatcher.java:142)
+	at org.jconfig.FileWatcher.run(FileWatcher.java:110)
+	at java.lang.Thread.run(Thread.java:748)
+
+22-Nov-2017 11:41:58.412 INFO [Thread-11] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8586"]
+22-Nov-2017 11:41:58.464 INFO [Thread-11] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8010"]
+22-Nov-2017 11:41:58.516 INFO [Thread-11] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Nov-2017 11:41:58.528 INFO [Thread-11] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8586"]
+22-Nov-2017 11:41:58.530 INFO [Thread-11] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8010"]
+22-Nov-2017 11:41:58.531 INFO [Thread-11] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8586"]
+22-Nov-2017 11:41:58.533 INFO [Thread-11] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8010"]
+22-Nov-2017 11:42:03.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+22-Nov-2017 11:42:03.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+22-Nov-2017 11:42:03.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+22-Nov-2017 11:42:03.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Nov-2017 11:42:03.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-693.2.2.el7.x86_64
+22-Nov-2017 11:42:03.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Nov-2017 11:42:03.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/jdk1.8.0_144/jre
+22-Nov-2017 11:42:03.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+22-Nov-2017 11:42:03.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Nov-2017 11:42:03.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /work/webserver/tomcat-cmsAirTime-8.5.23
+22-Nov-2017 11:42:03.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /work/webserver/tomcat-cmsAirTime-8.5.23
+22-Nov-2017 11:42:03.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/work/webserver/tomcat-cmsAirTime-8.5.23/conf/logging.properties
+22-Nov-2017 11:42:03.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Nov-2017 11:42:03.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Nov-2017 11:42:03.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Nov-2017 11:42:03.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/work/webserver/tomcat-cmsAirTime-8.5.23
+22-Nov-2017 11:42:03.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/work/webserver/tomcat-cmsAirTime-8.5.23
+22-Nov-2017 11:42:03.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/work/webserver/tomcat-cmsAirTime-8.5.23/temp
+22-Nov-2017 11:42:03.850 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+22-Nov-2017 11:42:03.995 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8586"]
+22-Nov-2017 11:42:04.014 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Nov-2017 11:42:04.018 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8010"]
+22-Nov-2017 11:42:04.019 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Nov-2017 11:42:04.020 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 620 ms
+22-Nov-2017 11:42:04.047 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Nov-2017 11:42:04.047 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+22-Nov-2017 11:42:05.337 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Nov-2017 11:42:05.583 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/work/webserver/tomcat-cmsAirTime-8.5.23/webapps/examples]
+22-Nov-2017 11:42:05.603 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/work/webserver/tomcat-cmsAirTime-8.5.23/webapps/examples] has finished in [19] ms
+22-Nov-2017 11:42:05.603 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/work/webserver/tomcat-cmsAirTime-8.5.23/webapps/manager]
+22-Nov-2017 11:42:05.637 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/work/webserver/tomcat-cmsAirTime-8.5.23/webapps/manager] has finished in [34] ms
+22-Nov-2017 11:42:05.638 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/work/webserver/tomcat-cmsAirTime-8.5.23/webapps/host-manager]
+22-Nov-2017 11:42:05.658 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/work/webserver/tomcat-cmsAirTime-8.5.23/webapps/host-manager] has finished in [20] ms
+22-Nov-2017 11:42:05.662 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8586"]
+22-Nov-2017 11:42:05.690 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8010"]
+22-Nov-2017 11:42:05.696 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1675 ms
+22-Nov-2017 11:44:26.387 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+22-Nov-2017 11:44:26.414 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.jconfig.FileWatcher.run(FileWatcher.java:105)
+ java.lang.Thread.run(Thread.java:748)
+22-Nov-2017 11:44:27.169 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+22-Nov-2017 11:44:47.237 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+22-Nov-2017 11:44:47.250 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-15] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.jconfig.FileWatcher.run(FileWatcher.java:105)
+ java.lang.Thread.run(Thread.java:748)
+22-Nov-2017 11:44:48.016 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed

@@ -1,0 +1,2000 @@
+08-Nov-2017 10:27:22.460 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Nov-2017 10:27:22.460 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Nov-2017 10:27:22.551 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Nov-2017 10:27:22.551 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Nov-2017 10:27:45.440 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Nov-2017 10:27:45.440 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Nov-2017 10:27:45.659 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Nov-2017 10:27:45.659 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Nov-2017 10:31:50.124 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Nov-2017 10:31:50.124 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Nov-2017 10:32:02.945 SEVERE [localhost-startStop-2] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [com.htc.airtime.configs.MyContext]
+ java.lang.ExceptionInInitializerError
+	at com.htc.airtime.configs.MyContext.contextDestroyed(MyContext.java:94)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4792)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5429)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1435)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Pool manager no longer valid for use
+	at snaq.db.ConnectionPoolManager.getPool(ConnectionPoolManager.java:1173)
+	at com.htc.airtime.connect.PoolMng.getConnPool(PoolMng.java:37)
+	at com.htc.airtime.connect.DBPool.CreatePool(DBPool.java:16)
+	at com.htc.airtime.connect.DBPool.<clinit>(DBPool.java:23)
+	... 10 more
+
+08-Nov-2017 10:32:02.956 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Nov-2017 10:32:02.956 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Nov-2017 10:32:07.421 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Nov-2017 10:32:07.422 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Nov-2017 10:32:19.898 SEVERE [localhost-startStop-2] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [com.htc.airtime.configs.MyContext]
+ java.lang.ExceptionInInitializerError
+	at com.htc.airtime.configs.MyContext.contextDestroyed(MyContext.java:94)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4792)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5429)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1435)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Pool manager no longer valid for use
+	at snaq.db.ConnectionPoolManager.getPool(ConnectionPoolManager.java:1173)
+	at com.htc.airtime.connect.PoolMng.getConnPool(PoolMng.java:37)
+	at com.htc.airtime.connect.DBPool.CreatePool(DBPool.java:16)
+	at com.htc.airtime.connect.DBPool.<clinit>(DBPool.java:23)
+	... 10 more
+
+08-Nov-2017 10:32:19.910 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Nov-2017 10:32:19.910 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Nov-2017 10:32:19.921 SEVERE [localhost-startStop-2] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [com.htc.services.airtime.config.MyContext]
+ java.lang.ExceptionInInitializerError
+	at com.htc.services.airtime.config.MyContext.contextDestroyed(MyContext.java:111)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4792)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5429)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1435)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Pool manager no longer valid for use
+	at snaq.db.ConnectionPoolManager.getPool(ConnectionPoolManager.java:1173)
+	at com.htc.services.airtime.db.PoolMng.getConnPool(PoolMng.java:37)
+	at com.htc.services.airtime.db.DBPool.CreatePool(DBPool.java:16)
+	at com.htc.services.airtime.db.DBPool.<clinit>(DBPool.java:23)
+	... 10 more
+
+08-Nov-2017 10:34:29.163 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Nov-2017 10:34:29.163 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Nov-2017 10:37:11.757 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Nov-2017 10:37:11.757 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Nov-2017 12:03:48.727 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Nov-2017 12:03:48.727 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Nov-2017 12:23:08.997 SEVERE [localhost-startStop-2] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [com.htc.airtime.configs.MyContext]
+ java.lang.ExceptionInInitializerError
+	at com.htc.airtime.configs.MyContext.contextDestroyed(MyContext.java:94)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4792)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5429)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1435)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Pool manager no longer valid for use
+	at snaq.db.ConnectionPoolManager.getPool(ConnectionPoolManager.java:1173)
+	at com.htc.airtime.connect.PoolMng.getConnPool(PoolMng.java:37)
+	at com.htc.airtime.connect.DBPool.CreatePool(DBPool.java:16)
+	at com.htc.airtime.connect.DBPool.<clinit>(DBPool.java:23)
+	... 10 more
+
+08-Nov-2017 12:23:09.005 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Nov-2017 12:23:09.005 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Nov-2017 12:23:20.519 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Nov-2017 12:23:20.519 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Nov-2017 12:23:43.989 SEVERE [localhost-startStop-2] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [com.htc.airtime.configs.MyContext]
+ java.lang.ExceptionInInitializerError
+	at com.htc.airtime.configs.MyContext.contextDestroyed(MyContext.java:94)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4792)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5429)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1435)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Pool manager no longer valid for use
+	at snaq.db.ConnectionPoolManager.getPool(ConnectionPoolManager.java:1173)
+	at com.htc.airtime.connect.PoolMng.getConnPool(PoolMng.java:37)
+	at com.htc.airtime.connect.DBPool.CreatePool(DBPool.java:16)
+	at com.htc.airtime.connect.DBPool.<clinit>(DBPool.java:23)
+	... 10 more
+
+08-Nov-2017 12:23:44.000 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Nov-2017 12:23:44.000 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Nov-2017 14:08:54.264 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Nov-2017 14:08:54.264 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Nov-2017 14:08:54.447 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Nov-2017 14:08:54.447 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Nov-2017 14:11:15.007 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Nov-2017 14:11:15.007 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Nov-2017 14:11:15.226 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Nov-2017 14:11:15.226 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Nov-2017 14:11:40.547 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Nov-2017 14:11:40.547 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Nov-2017 14:11:40.713 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Nov-2017 14:11:40.713 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Nov-2017 14:19:30.282 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Nov-2017 14:19:30.282 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Nov-2017 14:19:53.585 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Nov-2017 14:19:53.585 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Nov-2017 14:20:23.081 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Nov-2017 14:20:23.082 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Nov-2017 14:20:47.972 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Nov-2017 14:20:47.972 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Nov-2017 14:25:21.832 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Nov-2017 14:25:21.832 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Nov-2017 15:00:55.777 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Nov-2017 15:00:55.777 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Nov-2017 15:01:00.437 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Nov-2017 15:01:00.437 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Nov-2017 15:01:01.843 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Nov-2017 15:01:01.844 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Nov-2017 16:23:28.514 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Nov-2017 16:23:28.514 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Nov-2017 16:23:55.781 SEVERE [http-nio-8586-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cmsAirTime] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [19] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [20] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [21] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [22] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [23] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [8] in the jsp file: [/includes/head.jsp]
+Helper cannot be resolved
+5: <%
+6:     String baseUrl = request.getContextPath();
+7:     //CHECK LOGIN
+8:     Helper.cLogin(response, session);
+9: 
+10: %>
+11: <%  //       
+
+
+An error occurred at line: [16] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+13:     String checkTypeUser = "";
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+
+
+An error occurred at line: [17] in the jsp file: [/includes/head.jsp]
+Tool cannot be resolved
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+
+
+An error occurred at line: [18] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+
+
+An error occurred at line: [21] in the jsp file: [/includes/head.jsp]
+AccountDAO.TYPE cannot be resolved to a type
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+22:     }
+23: %>  
+24: <!DOCTYPE html>
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [19] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [20] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [21] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [22] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [23] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [8] in the jsp file: [/includes/head.jsp]
+Helper cannot be resolved
+5: <%
+6:     String baseUrl = request.getContextPath();
+7:     //CHECK LOGIN
+8:     Helper.cLogin(response, session);
+9: 
+10: %>
+11: <%  //       
+
+
+An error occurred at line: [16] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+13:     String checkTypeUser = "";
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+
+
+An error occurred at line: [17] in the jsp file: [/includes/head.jsp]
+Tool cannot be resolved
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+
+
+An error occurred at line: [18] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+
+
+An error occurred at line: [21] in the jsp file: [/includes/head.jsp]
+AccountDAO.TYPE cannot be resolved to a type
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+22:     }
+23: %>  
+24: <!DOCTYPE html>
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:601)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 16:24:46.882 SEVERE [http-nio-8586-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cmsAirTime] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [19] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [20] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [21] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [22] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [23] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [8] in the jsp file: [/includes/head.jsp]
+Helper cannot be resolved
+5: <%
+6:     String baseUrl = request.getContextPath();
+7:     //CHECK LOGIN
+8:     Helper.cLogin(response, session);
+9: 
+10: %>
+11: <%  //       
+
+
+An error occurred at line: [16] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+13:     String checkTypeUser = "";
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+
+
+An error occurred at line: [17] in the jsp file: [/includes/head.jsp]
+Tool cannot be resolved
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+
+
+An error occurred at line: [18] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+
+
+An error occurred at line: [21] in the jsp file: [/includes/head.jsp]
+AccountDAO.TYPE cannot be resolved to a type
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+22:     }
+23: %>  
+24: <!DOCTYPE html>
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [19] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [20] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [21] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [22] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [23] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [8] in the jsp file: [/includes/head.jsp]
+Helper cannot be resolved
+5: <%
+6:     String baseUrl = request.getContextPath();
+7:     //CHECK LOGIN
+8:     Helper.cLogin(response, session);
+9: 
+10: %>
+11: <%  //       
+
+
+An error occurred at line: [16] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+13:     String checkTypeUser = "";
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+
+
+An error occurred at line: [17] in the jsp file: [/includes/head.jsp]
+Tool cannot be resolved
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+
+
+An error occurred at line: [18] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+
+
+An error occurred at line: [21] in the jsp file: [/includes/head.jsp]
+AccountDAO.TYPE cannot be resolved to a type
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+22:     }
+23: %>  
+24: <!DOCTYPE html>
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:601)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 16:25:12.273 SEVERE [http-nio-8586-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cmsAirTime] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [19] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [20] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [21] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [22] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [23] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [8] in the jsp file: [/includes/head.jsp]
+Helper cannot be resolved
+5: <%
+6:     String baseUrl = request.getContextPath();
+7:     //CHECK LOGIN
+8:     Helper.cLogin(response, session);
+9: 
+10: %>
+11: <%  //       
+
+
+An error occurred at line: [16] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+13:     String checkTypeUser = "";
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+
+
+An error occurred at line: [17] in the jsp file: [/includes/head.jsp]
+Tool cannot be resolved
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+
+
+An error occurred at line: [18] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+
+
+An error occurred at line: [21] in the jsp file: [/includes/head.jsp]
+AccountDAO.TYPE cannot be resolved to a type
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+22:     }
+23: %>  
+24: <!DOCTYPE html>
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [19] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [20] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [21] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [22] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [23] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [8] in the jsp file: [/includes/head.jsp]
+Helper cannot be resolved
+5: <%
+6:     String baseUrl = request.getContextPath();
+7:     //CHECK LOGIN
+8:     Helper.cLogin(response, session);
+9: 
+10: %>
+11: <%  //       
+
+
+An error occurred at line: [16] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+13:     String checkTypeUser = "";
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+
+
+An error occurred at line: [17] in the jsp file: [/includes/head.jsp]
+Tool cannot be resolved
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+
+
+An error occurred at line: [18] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+
+
+An error occurred at line: [21] in the jsp file: [/includes/head.jsp]
+AccountDAO.TYPE cannot be resolved to a type
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+22:     }
+23: %>  
+24: <!DOCTYPE html>
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:601)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 16:25:41.711 SEVERE [http-nio-8586-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cmsAirTime] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [19] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [20] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [21] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [22] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [23] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [8] in the jsp file: [/includes/head.jsp]
+Helper cannot be resolved
+5: <%
+6:     String baseUrl = request.getContextPath();
+7:     //CHECK LOGIN
+8:     Helper.cLogin(response, session);
+9: 
+10: %>
+11: <%  //       
+
+
+An error occurred at line: [16] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+13:     String checkTypeUser = "";
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+
+
+An error occurred at line: [17] in the jsp file: [/includes/head.jsp]
+Tool cannot be resolved
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+
+
+An error occurred at line: [18] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+
+
+An error occurred at line: [21] in the jsp file: [/includes/head.jsp]
+AccountDAO.TYPE cannot be resolved to a type
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+22:     }
+23: %>  
+24: <!DOCTYPE html>
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [19] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [20] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [21] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [22] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [23] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [8] in the jsp file: [/includes/head.jsp]
+Helper cannot be resolved
+5: <%
+6:     String baseUrl = request.getContextPath();
+7:     //CHECK LOGIN
+8:     Helper.cLogin(response, session);
+9: 
+10: %>
+11: <%  //       
+
+
+An error occurred at line: [16] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+13:     String checkTypeUser = "";
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+
+
+An error occurred at line: [17] in the jsp file: [/includes/head.jsp]
+Tool cannot be resolved
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+
+
+An error occurred at line: [18] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+
+
+An error occurred at line: [21] in the jsp file: [/includes/head.jsp]
+AccountDAO.TYPE cannot be resolved to a type
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+22:     }
+23: %>  
+24: <!DOCTYPE html>
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:601)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 16:26:19.195 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+08-Nov-2017 16:26:19.195 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+08-Nov-2017 16:32:56.092 SEVERE [http-nio-8586-exec-16] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cmsAirTime] threw exception [Unable to compile class for JSP] with root cause
+ java.io.FileNotFoundException: /work/webroot/CmsAirTime/WEB-INF/lib/poi-examples-3.9.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+	at org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:74)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:87)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1067)
+	at javax.el.ExpressionFactory.getClassNameServices(ExpressionFactory.java:388)
+	at javax.el.ExpressionFactory.discoverClassName(ExpressionFactory.java:344)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:141)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:93)
+	at org.apache.jasper.compiler.PageInfo.<init>(PageInfo.java:80)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:117)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:374)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:601)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 16:33:01.457 SEVERE [http-nio-8586-exec-17] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cmsAirTime] threw exception [Unable to compile class for JSP] with root cause
+ java.io.FileNotFoundException: /work/webroot/CmsAirTime/WEB-INF/lib/poi-examples-3.9.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+	at org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:74)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:69)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1067)
+	at javax.el.ExpressionFactory.getClassNameServices(ExpressionFactory.java:388)
+	at javax.el.ExpressionFactory.discoverClassName(ExpressionFactory.java:344)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:141)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:93)
+	at org.apache.jasper.compiler.PageInfo.<init>(PageInfo.java:80)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:117)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:374)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:601)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 16:33:15.009 SEVERE [localhost-startStop-2] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [com.htc.airtime.configs.MyContext]
+ java.lang.IllegalStateException: java.io.FileNotFoundException: /work/webroot/CmsAirTime/WEB-INF/lib/poi-examples-3.9.jar (No such file or directory)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2173)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1260)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at com.htc.airtime.configs.MyContext.contextDestroyed(MyContext.java:94)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4792)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5429)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1435)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: /work/webroot/CmsAirTime/WEB-INF/lib/poi-examples-3.9.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 19 more
+
+08-Nov-2017 16:34:15.436 SEVERE [http-nio-8586-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cmsAirTime] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [19] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [20] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [21] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [22] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [23] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [8] in the jsp file: [/includes/head.jsp]
+Helper cannot be resolved
+5: <%
+6:     String baseUrl = request.getContextPath();
+7:     //CHECK LOGIN
+8:     Helper.cLogin(response, session);
+9: 
+10: %>
+11: <%  //       
+
+
+An error occurred at line: [16] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+13:     String checkTypeUser = "";
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+
+
+An error occurred at line: [17] in the jsp file: [/includes/head.jsp]
+Tool cannot be resolved
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+
+
+An error occurred at line: [18] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+
+
+An error occurred at line: [21] in the jsp file: [/includes/head.jsp]
+AccountDAO.TYPE cannot be resolved to a type
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+22:     }
+23: %>  
+24: <!DOCTYPE html>
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [19] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [20] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [21] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [22] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [23] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+An error occurred at line: [8] in the jsp file: [/includes/head.jsp]
+Helper cannot be resolved
+5: <%
+6:     String baseUrl = request.getContextPath();
+7:     //CHECK LOGIN
+8:     Helper.cLogin(response, session);
+9: 
+10: %>
+11: <%  //       
+
+
+An error occurred at line: [16] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+13:     String checkTypeUser = "";
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+
+
+An error occurred at line: [17] in the jsp file: [/includes/head.jsp]
+Tool cannot be resolved
+14:     
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+
+
+An error occurred at line: [18] in the jsp file: [/includes/head.jsp]
+Account cannot be resolved to a type
+15:     int idUser = 0;
+16:     Account acc = null;
+17:     if (!Tool.checkNull(session.getAttribute("acc"))) {
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+
+
+An error occurred at line: [21] in the jsp file: [/includes/head.jsp]
+AccountDAO.TYPE cannot be resolved to a type
+18:         acc = (Account) session.getAttribute("acc");
+19:         idUser = acc.getAccId();
+20:         nameUser = acc.getUserName();
+21:         checkTypeUser = AccountDAO.TYPE.getType(acc.getUserType()).toString();
+22:     }
+23: %>  
+24: <!DOCTYPE html>
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+An error occurred at line: [10] in the jsp file: [/includes/mainMenu.jsp]
+AccountDAO cannot be resolved to a type
+7: <%@page import="com.htc.airtime.dao.AccountDAO"%>
+8: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+9: <%
+10:     AccountDAO accountPermission = new AccountDAO();
+11: 
+12:     boolean checkAccounts = true;
+13:     boolean checkUserPermission = true;
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:601)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 16:35:58.021 SEVERE [http-nio-8586-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cmsAirTime] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:601)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 16:44:29.953 SEVERE [http-nio-8586-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cmsAirTime] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:601)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 16:47:42.072 SEVERE [http-nio-8586-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cmsAirTime] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:601)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 16:49:40.756 SEVERE [http-nio-8586-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cmsAirTime] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Tool resolves to a package
+
+An error occurred at line: [16] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.components.Helper resolves to a package
+
+An error occurred at line: [17] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.model.Account resolves to a package
+
+An error occurred at line: [18] in the generated java file: [/work/webserver/tomcat-cmsAirTime-8.5.23/work/Catalina/localhost/cmsAirTime/org/apache/jsp/index_jsp.java]
+Only a type can be imported. com.htc.airtime.dao.AccountDAO resolves to a package
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:601)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 16:59:17.817 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStart Error configuring application listener of class [com.htc.airtime.configs.MyContext]
+ java.lang.ClassNotFoundException: com.htc.airtime.configs.MyContext
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1291)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:512)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:493)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:119)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4667)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5207)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3800)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:292)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5563)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 16:59:17.817 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStart Skipped installing application listeners due to previous error(s)
+08-Nov-2017 17:04:26.670 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStart Error configuring application listener of class [com.htc.airtime.configs.MyContext]
+ java.lang.ClassNotFoundException: com.htc.airtime.configs.MyContext
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1291)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:512)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:493)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:119)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4667)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5207)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3800)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:292)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5563)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 17:04:26.670 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStart Skipped installing application listeners due to previous error(s)
+08-Nov-2017 18:39:28.471 SEVERE [http-nio-8586-exec-3] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+ javax.servlet.ServletException: File [/login.jsp] not found
+	at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:387)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:590)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:524)
+	at com.htc.airtime.servlet.auth.login.processRequest(login.java:93)
+	at com.htc.airtime.servlet.auth.login.doPost(login.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 18:39:28.472 SEVERE [http-nio-8586-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [login] in context with path [/cmsAirTime] threw exception [File [/login.jsp] not found] with root cause
+ javax.servlet.ServletException: File [/login.jsp] not found
+	at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:387)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:590)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:524)
+	at com.htc.airtime.servlet.auth.login.processRequest(login.java:93)
+	at com.htc.airtime.servlet.auth.login.doPost(login.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 18:39:31.456 SEVERE [http-nio-8586-exec-4] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+ javax.servlet.ServletException: File [/login.jsp] not found
+	at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:590)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:524)
+	at com.htc.airtime.servlet.auth.login.processRequest(login.java:93)
+	at com.htc.airtime.servlet.auth.login.doPost(login.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 18:39:31.458 SEVERE [http-nio-8586-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [login] in context with path [/cmsAirTime] threw exception [File [/login.jsp] not found] with root cause
+ javax.servlet.ServletException: File [/login.jsp] not found
+	at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:590)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:524)
+	at com.htc.airtime.servlet.auth.login.processRequest(login.java:93)
+	at com.htc.airtime.servlet.auth.login.doPost(login.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Nov-2017 19:08:56.115 SEVERE [localhost-startStop-2] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [com.htc.airtime.configs.MyContext]
+ java.lang.ExceptionInInitializerError
+	at com.htc.airtime.configs.MyContext.contextDestroyed(MyContext.java:94)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4792)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5429)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1435)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Pool manager no longer valid for use
+	at snaq.db.ConnectionPoolManager.getPool(ConnectionPoolManager.java:1173)
+	at com.htc.airtime.connect.PoolMng.getConnPool(PoolMng.java:37)
+	at com.htc.airtime.connect.DBPool.CreatePool(DBPool.java:16)
+	at com.htc.airtime.connect.DBPool.<clinit>(DBPool.java:23)
+	... 10 more
+

@@ -1,0 +1,324 @@
+2017-11-29 02:21:00 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-29 02:21:00 INFO  air_time:885 - air_time: Created a new connection
+2017-11-29 02:21:00 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.44095%)
+2017-11-29 02:21:00 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:21:00 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.44597%)
+2017-11-29 02:21:00 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:21:04 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.45098%)
+2017-11-29 02:21:04 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:21:04 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.45596%)
+2017-11-29 02:21:04 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:21:04 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.46094%)
+2017-11-29 02:21:04 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:21:04 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.46588%)
+2017-11-29 02:21:04 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:21:04 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.47082%)
+2017-11-29 02:21:04 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:24:05 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-29 02:28:58 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-29 02:28:58 INFO  air_time:885 - air_time: Created a new connection
+2017-11-29 02:28:58 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.281555%)
+2017-11-29 02:28:58 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:28:58 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.28682%)
+2017-11-29 02:28:58 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:28:59 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.29207%)
+2017-11-29 02:28:59 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:29:01 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.2973%)
+2017-11-29 02:29:01 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:29:01 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.302505%)
+2017-11-29 02:29:01 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:29:01 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.30769%)
+2017-11-29 02:29:01 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:29:01 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.31286%)
+2017-11-29 02:29:01 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:29:03 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.31801%)
+2017-11-29 02:29:03 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:29:03 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.323135%)
+2017-11-29 02:29:03 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:29:03 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.32825%)
+2017-11-29 02:29:03 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:29:03 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.333336%)
+2017-11-29 02:29:03 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:29:03 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.3384%)
+2017-11-29 02:29:03 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:29:43 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.34345%)
+2017-11-29 02:29:43 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:29:45 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.34849%)
+2017-11-29 02:29:45 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:29:46 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.3535%)
+2017-11-29 02:29:46 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:30:00 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.35849%)
+2017-11-29 02:30:00 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 02:33:03 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-29 08:41:49 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-29 08:41:49 INFO  air_time:885 - air_time: Created a new connection
+2017-11-29 08:41:49 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.17514%)
+2017-11-29 08:41:49 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:41:49 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.18045%)
+2017-11-29 08:41:49 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:41:54 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.185745%)
+2017-11-29 08:41:54 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:43:41 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.19101%)
+2017-11-29 08:43:41 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:43:41 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.196266%)
+2017-11-29 08:43:41 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:43:41 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.20149%)
+2017-11-29 08:43:41 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:43:41 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.2067%)
+2017-11-29 08:43:41 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:43:41 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.2119%)
+2017-11-29 08:43:41 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:43:46 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.21707%)
+2017-11-29 08:43:46 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:43:46 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.22222%)
+2017-11-29 08:43:46 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:43:46 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.227356%)
+2017-11-29 08:43:46 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:43:46 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.232475%)
+2017-11-29 08:43:46 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:43:46 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.23757%)
+2017-11-29 08:43:46 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:43:48 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.242645%)
+2017-11-29 08:43:48 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:43:48 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.24771%)
+2017-11-29 08:43:48 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:43:48 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.25275%)
+2017-11-29 08:43:48 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:43:48 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.25777%)
+2017-11-29 08:43:48 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 08:46:49 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-29 09:31:35 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-29 09:31:35 INFO  air_time:885 - air_time: Created a new connection
+2017-11-29 09:31:35 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.08029%)
+2017-11-29 09:31:35 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 09:31:35 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.08561%)
+2017-11-29 09:31:35 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 09:31:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.09091%)
+2017-11-29 09:31:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 09:34:40 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-29 11:18:26 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-29 11:18:26 INFO  air_time:885 - air_time: Created a new connection
+2017-11-29 11:18:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.9147%)
+2017-11-29 11:18:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 11:18:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.92029%)
+2017-11-29 11:18:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 11:18:29 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.92586%)
+2017-11-29 11:18:29 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 11:18:29 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.93141%)
+2017-11-29 11:18:29 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 11:18:29 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.936935%)
+2017-11-29 11:18:29 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 11:18:29 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.94245%)
+2017-11-29 11:18:29 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 11:21:31 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-29 11:32:20 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-29 11:32:20 INFO  air_time:885 - air_time: Created a new connection
+2017-11-29 11:32:20 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.7684%)
+2017-11-29 11:32:20 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 11:32:20 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.77419%)
+2017-11-29 11:32:20 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 11:32:20 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.77997%)
+2017-11-29 11:32:20 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 11:32:20 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.78571%)
+2017-11-29 11:32:20 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 11:35:20 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-29 13:46:40 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-29 13:46:40 INFO  air_time:885 - air_time: Created a new connection
+2017-11-29 13:46:40 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.61319%)
+2017-11-29 13:46:40 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 13:46:40 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.61922%)
+2017-11-29 13:46:40 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 13:46:42 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.62522%)
+2017-11-29 13:46:42 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 13:49:45 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-29 14:16:55 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-29 14:16:55 INFO  air_time:885 - air_time: Created a new connection
+2017-11-29 14:16:55 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.453896%)
+2017-11-29 14:16:55 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 14:16:55 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.460175%)
+2017-11-29 14:16:55 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 14:16:57 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.46643%)
+2017-11-29 14:16:57 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 14:18:48 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.472664%)
+2017-11-29 14:18:48 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 14:18:49 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.478874%)
+2017-11-29 14:18:49 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 14:18:49 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.48506%)
+2017-11-29 14:18:49 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 14:18:49 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.49123%)
+2017-11-29 14:18:49 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 14:18:50 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.497375%)
+2017-11-29 14:18:50 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 14:18:50 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.503494%)
+2017-11-29 14:18:50 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 14:18:50 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.5096%)
+2017-11-29 14:18:50 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 14:18:50 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.51568%)
+2017-11-29 14:18:50 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 14:18:50 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.52174%)
+2017-11-29 14:18:50 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 14:18:51 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.52778%)
+2017-11-29 14:18:51 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 14:18:51 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.53379%)
+2017-11-29 14:18:51 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 14:19:02 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.53979%)
+2017-11-29 14:19:02 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 14:19:02 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.54577%)
+2017-11-29 14:19:02 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-29 14:20:03 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-29 14:20:03 DEBUG air_time:910 - air_time: Released 1 item
+2017-11-29 14:20:03 INFO  air_time:1352 - air_time: Deregistered JDBC driver com.mysql.jdbc.Driver
+2017-11-29 14:20:03 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@2b5122ca
+2017-11-29 14:20:13 INFO  MyContext:120 - config.xml
+2017-11-29 14:20:13 INFO  MyContext:127 - file config successfully processed
+2017-11-29 14:20:13 INFO  MyContext:128 - get Config From ConfigurationManager
+2017-11-29 14:20:28 ERROR AccountDAO:130 - 2017-11-29 14:20:28.418||Table 'htc_payment.charge_online' doesn't exist||sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)	
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)	
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)	
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)	
+com.mysql.jdbc.Util.handleNewInstance(Util.java:411)	
+com.mysql.jdbc.Util.getInstance(Util.java:386)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)	
+com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)	
+com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)	
+com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)	
+com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)	
+com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2794)	
+com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)	
+com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2322)	
+com.mysql.jdbc.CallableStatement.executeQuery(CallableStatement.java:955)	
+snaq.db.CachedPreparedStatement.executeQuery(CachedPreparedStatement.java:144)	
+com.htc.airtime.dao.ChargeOnlineDAO.getListSearch(ChargeOnlineDAO.java:102)	
+org.apache.jsp.charging.index_jsp._jspService(index_jsp.java:498)	
+org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)	
+javax.servlet.http.HttpServlet.service(HttpServlet.java:742)	
+org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)	
+org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)	
+org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)	
+javax.servlet.http.HttpServlet.service(HttpServlet.java:742)	
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)	
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)	
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)	
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)	
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)	
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)	
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)	
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)	
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)	
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)	
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)	
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)	
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)	
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)	
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)	
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)	
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)	
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)	
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)	
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)	
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)	
+java.lang.Thread.run(Thread.java:748)	
+
+2017-11-29 14:20:37 ERROR AccountDAO:130 - 2017-11-29 14:20:37.948||Table 'htc_payment.charge_online' doesn't exist||sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)	
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)	
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)	
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)	
+com.mysql.jdbc.Util.handleNewInstance(Util.java:411)	
+com.mysql.jdbc.Util.getInstance(Util.java:386)	
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)	
+com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)	
+com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)	
+com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)	
+com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)	
+com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2794)	
+com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)	
+com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2322)	
+com.mysql.jdbc.CallableStatement.executeQuery(CallableStatement.java:955)	
+snaq.db.CachedPreparedStatement.executeQuery(CachedPreparedStatement.java:144)	
+com.htc.airtime.dao.ChargeOnlineDAO.getListSearch(ChargeOnlineDAO.java:102)	
+org.apache.jsp.charging.index_jsp._jspService(index_jsp.java:498)	
+org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)	
+javax.servlet.http.HttpServlet.service(HttpServlet.java:742)	
+org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)	
+org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)	
+org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)	
+javax.servlet.http.HttpServlet.service(HttpServlet.java:742)	
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)	
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)	
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)	
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)	
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)	
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)	
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)	
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)	
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)	
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)	
+org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)	
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)	
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)	
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)	
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)	
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)	
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)	
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)	
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)	
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)	
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)	
+java.lang.Thread.run(Thread.java:748)	
+
+2017-11-29 14:26:35 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@7e2bd4a6
+2017-11-29 14:26:36 INFO  MyContext:120 - config.xml
+2017-11-29 14:26:36 INFO  MyContext:127 - file config successfully processed
+2017-11-29 14:26:36 INFO  MyContext:128 - get Config From ConfigurationManager
+2017-11-29 14:31:17 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@7cf20092
+2017-11-29 14:31:18 INFO  MyContext:120 - config.xml
+2017-11-29 14:31:18 INFO  MyContext:127 - file config successfully processed
+2017-11-29 14:31:18 INFO  MyContext:128 - get Config From ConfigurationManager
+2017-11-29 14:42:32 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@19602740
+2017-11-29 14:42:32 INFO  MyContext:120 - config.xml
+2017-11-29 14:42:32 INFO  MyContext:127 - file config successfully processed
+2017-11-29 14:42:32 INFO  MyContext:128 - get Config From ConfigurationManager
+2017-11-29 14:45:23 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@3f321067
+2017-11-29 14:45:27 INFO  MyContext:120 - config.xml
+2017-11-29 14:45:27 INFO  MyContext:127 - file config successfully processed
+2017-11-29 14:45:27 INFO  MyContext:128 - get Config From ConfigurationManager
+2017-11-29 14:46:27 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@7e2bd4a6
+2017-11-29 14:46:28 INFO  MyContext:120 - config.xml
+2017-11-29 14:46:28 INFO  MyContext:127 - file config successfully processed
+2017-11-29 14:46:28 INFO  MyContext:128 - get Config From ConfigurationManager
+2017-11-29 15:03:04 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@7b98e275
+2017-11-29 15:03:04 INFO  MyContext:120 - config.xml
+2017-11-29 15:03:04 INFO  MyContext:127 - file config successfully processed
+2017-11-29 15:03:04 INFO  MyContext:128 - get Config From ConfigurationManager
+2017-11-29 15:05:25 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@6b2e6e4c
+2017-11-29 15:05:26 INFO  MyContext:120 - config.xml
+2017-11-29 15:05:26 INFO  MyContext:127 - file config successfully processed
+2017-11-29 15:05:26 INFO  MyContext:128 - get Config From ConfigurationManager
+2017-11-29 15:05:37 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@4c7c3cd3
+2017-11-29 15:05:40 INFO  MyContext:120 - config.xml
+2017-11-29 15:05:40 INFO  MyContext:127 - file config successfully processed
+2017-11-29 15:05:40 INFO  MyContext:128 - get Config From ConfigurationManager
+2017-11-29 15:25:58 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@7e2bd4a6
+2017-11-29 15:26:00 INFO  MyContext:120 - config.xml
+2017-11-29 15:26:01 INFO  MyContext:127 - file config successfully processed
+2017-11-29 15:26:01 INFO  MyContext:128 - get Config From ConfigurationManager
+2017-11-29 15:34:44 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@7e2bd4a6
+2017-11-29 15:34:44 INFO  MyContext:120 - config.xml
+2017-11-29 15:34:44 INFO  MyContext:127 - file config successfully processed
+2017-11-29 15:34:44 INFO  MyContext:128 - get Config From ConfigurationManager
+2017-11-29 15:40:31 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@3e7a11d0
+2017-11-29 15:40:34 INFO  MyContext:120 - config.xml
+2017-11-29 15:40:34 INFO  MyContext:127 - file config successfully processed
+2017-11-29 15:40:34 INFO  MyContext:128 - get Config From ConfigurationManager
+2017-11-29 15:41:17 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@7e2bd4a6
+2017-11-29 15:41:20 INFO  MyContext:120 - config.xml
+2017-11-29 15:41:20 INFO  MyContext:127 - file config successfully processed
+2017-11-29 15:41:20 INFO  MyContext:128 - get Config From ConfigurationManager
+2017-11-29 15:44:42 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@7e2bd4a6
+2017-11-29 15:44:42 INFO  MyContext:120 - config.xml
+2017-11-29 15:44:42 INFO  MyContext:127 - file config successfully processed
+2017-11-29 15:44:42 INFO  MyContext:128 - get Config From ConfigurationManager
+2017-11-29 15:53:50 INFO  MyContext:107 - deregistering jdbc driver: com.mysql.jdbc.Driver@1ff54ca3
+2017-11-29 15:53:53 INFO  MyContext:120 - config.xml
+2017-11-29 15:53:53 INFO  MyContext:127 - file config successfully processed
+2017-11-29 15:53:53 INFO  MyContext:128 - get Config From ConfigurationManager

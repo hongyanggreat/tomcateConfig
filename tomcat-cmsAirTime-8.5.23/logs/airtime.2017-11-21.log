@@ -1,0 +1,1740 @@
+2017-11-21 10:13:56 INFO  MyContext:115 - config.xml
+2017-11-21 10:13:56 INFO  MyContext:122 - file config successfully processed
+2017-11-21 10:13:56 INFO  MyContext:123 - get Config From ConfigurationManager
+2017-11-21 10:13:56 INFO  ConnectionPoolManager:591 - Loaded ConnectionPoolManager properties with encoding UTF-8
+2017-11-21 10:13:56 INFO  air_time:1352 - air_time: Registered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:13:56 WARN  air_time:1327 - air_time: Invalid releaseTimeout value null for air_time
+2017-11-21 10:13:56 DEBUG air_time:910 - air_time: Parameters changed (minpool=10,maxpool=25,maxsize=25,idleTimeout=180,cleanInterval=5000)
+2017-11-21 10:13:56 INFO  air_time:1352 - air_time: Disabling caching on pool air_time
+2017-11-21 10:13:56 INFO  air_time:1352 - air_time: Enabling release timeout (0ms) on pool air_time
+2017-11-21 10:13:56 INFO  air_time:1352 - air_time: Created pool air_time (minpool=10,maxpool=25,maxsize=25,idleTimeout=180)
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:13:56 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:13:56 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:13:56 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:13:56 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:13:56 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:13:56 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:13:56 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:13:56 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:13:56 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:13:56 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:13:56 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:13:56 DEBUG air_time:910 - air_time: Initialized pool with 10 new items
+2017-11-21 10:14:12 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:12 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:14:12 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:12 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:37 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:14:47 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:47 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:14:47 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:47 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:14:47 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:47 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:14:47 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:14:47 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:09 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:09 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:09 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:09 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:09 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:09 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:09 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:09 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:44 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:46 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:46 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:46 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:46 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:46 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:46 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:15:46 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:15:46 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:16:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:16:50 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:16:50 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:16:50 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:16:50 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:16:50 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:16:50 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:16:50 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:16:50 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:16:56 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:16:56 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:16:56 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:16:56 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:16:56 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:16:56 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:16:56 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:16:56 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:16:56 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:17:19 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:17:19 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:17:19 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:17:19 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:17:19 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:17:19 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:17:19 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:17:19 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:17:23 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:20:26 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:28:32 DEBUG air_time:910 - air_time: Released 0 items
+2017-11-21 10:28:32 INFO  air_time:1352 - air_time: Deregistered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:28:32 INFO  MyContext:102 - deregistering jdbc driver: com.mysql.jdbc.Driver@3fb8d1e3
+2017-11-21 10:28:33 INFO  MyContext:115 - config.xml
+2017-11-21 10:28:33 INFO  MyContext:122 - file config successfully processed
+2017-11-21 10:28:33 INFO  MyContext:123 - get Config From ConfigurationManager
+2017-11-21 10:28:33 INFO  ConnectionPoolManager:591 - Loaded ConnectionPoolManager properties with encoding UTF-8
+2017-11-21 10:28:33 INFO  air_time:1352 - air_time: Registered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:28:33 WARN  air_time:1327 - air_time: Invalid releaseTimeout value null for air_time
+2017-11-21 10:28:33 DEBUG air_time:910 - air_time: Parameters changed (minpool=10,maxpool=25,maxsize=25,idleTimeout=180,cleanInterval=5000)
+2017-11-21 10:28:33 INFO  air_time:1352 - air_time: Disabling caching on pool air_time
+2017-11-21 10:28:33 INFO  air_time:1352 - air_time: Enabling release timeout (0ms) on pool air_time
+2017-11-21 10:28:33 INFO  air_time:1352 - air_time: Created pool air_time (minpool=10,maxpool=25,maxsize=25,idleTimeout=180)
+2017-11-21 10:28:33 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:28:34 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:28:34 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:28:34 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:28:34 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:28:34 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:28:34 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:28:34 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:28:34 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:28:34 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:28:34 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:28:34 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:28:34 DEBUG air_time:910 - air_time: Initialized pool with 10 new items
+2017-11-21 10:28:36 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:28:36 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:28:36 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:28:36 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:28:36 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:28:36 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:28:42 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:28:42 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:28:42 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:28:42 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:31:24 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:24 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:24 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:24 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:24 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:24 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:24 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:24 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:24 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:24 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:24 DEBUG air_time:910 - air_time: Released 10 items
+2017-11-21 10:31:24 INFO  air_time:1352 - air_time: Deregistered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:31:24 INFO  MyContext:102 - deregistering jdbc driver: com.mysql.jdbc.Driver@2728816
+2017-11-21 10:31:25 INFO  MyContext:115 - config.xml
+2017-11-21 10:31:25 INFO  MyContext:122 - file config successfully processed
+2017-11-21 10:31:25 INFO  MyContext:123 - get Config From ConfigurationManager
+2017-11-21 10:31:25 INFO  ConnectionPoolManager:591 - Loaded ConnectionPoolManager properties with encoding UTF-8
+2017-11-21 10:31:25 INFO  air_time:1352 - air_time: Registered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:31:25 WARN  air_time:1327 - air_time: Invalid releaseTimeout value null for air_time
+2017-11-21 10:31:25 DEBUG air_time:910 - air_time: Parameters changed (minpool=10,maxpool=25,maxsize=25,idleTimeout=180,cleanInterval=5000)
+2017-11-21 10:31:25 INFO  air_time:1352 - air_time: Disabling caching on pool air_time
+2017-11-21 10:31:25 INFO  air_time:1352 - air_time: Enabling release timeout (0ms) on pool air_time
+2017-11-21 10:31:25 INFO  air_time:1352 - air_time: Created pool air_time (minpool=10,maxpool=25,maxsize=25,idleTimeout=180)
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:25 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:25 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:25 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:25 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:25 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:25 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:25 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:25 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:25 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:25 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:25 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:25 DEBUG air_time:910 - air_time: Initialized pool with 10 new items
+2017-11-21 10:31:35 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:35 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:35 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:35 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:35 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:35 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:35 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:35 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:35 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:35 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:31:35 DEBUG air_time:910 - air_time: Released 10 items
+2017-11-21 10:31:35 INFO  air_time:1352 - air_time: Deregistered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:31:35 INFO  MyContext:102 - deregistering jdbc driver: com.mysql.jdbc.Driver@6859b460
+2017-11-21 10:31:36 INFO  MyContext:115 - config.xml
+2017-11-21 10:31:36 INFO  MyContext:122 - file config successfully processed
+2017-11-21 10:31:36 INFO  MyContext:123 - get Config From ConfigurationManager
+2017-11-21 10:31:36 INFO  ConnectionPoolManager:591 - Loaded ConnectionPoolManager properties with encoding UTF-8
+2017-11-21 10:31:36 INFO  air_time:1352 - air_time: Registered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:31:36 WARN  air_time:1327 - air_time: Invalid releaseTimeout value null for air_time
+2017-11-21 10:31:36 DEBUG air_time:910 - air_time: Parameters changed (minpool=10,maxpool=25,maxsize=25,idleTimeout=180,cleanInterval=5000)
+2017-11-21 10:31:36 INFO  air_time:1352 - air_time: Disabling caching on pool air_time
+2017-11-21 10:31:36 INFO  air_time:1352 - air_time: Enabling release timeout (0ms) on pool air_time
+2017-11-21 10:31:36 INFO  air_time:1352 - air_time: Created pool air_time (minpool=10,maxpool=25,maxsize=25,idleTimeout=180)
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:31:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:31:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:31:36 DEBUG air_time:910 - air_time: Initialized pool with 10 new items
+2017-11-21 10:31:39 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:31:39 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:31:39 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:31:39 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:33:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:33:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:33:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:33:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:33:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:33:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:33:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:33:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:33:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:33:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:33:17 DEBUG air_time:910 - air_time: Released 10 items
+2017-11-21 10:33:17 INFO  air_time:1352 - air_time: Deregistered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:33:17 INFO  MyContext:102 - deregistering jdbc driver: com.mysql.jdbc.Driver@43c8c151
+2017-11-21 10:33:18 INFO  MyContext:115 - config.xml
+2017-11-21 10:33:18 INFO  MyContext:122 - file config successfully processed
+2017-11-21 10:33:18 INFO  MyContext:123 - get Config From ConfigurationManager
+2017-11-21 10:33:18 INFO  ConnectionPoolManager:591 - Loaded ConnectionPoolManager properties with encoding UTF-8
+2017-11-21 10:33:18 INFO  air_time:1352 - air_time: Registered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:33:18 WARN  air_time:1327 - air_time: Invalid releaseTimeout value null for air_time
+2017-11-21 10:33:18 DEBUG air_time:910 - air_time: Parameters changed (minpool=10,maxpool=25,maxsize=25,idleTimeout=180,cleanInterval=5000)
+2017-11-21 10:33:18 INFO  air_time:1352 - air_time: Disabling caching on pool air_time
+2017-11-21 10:33:18 INFO  air_time:1352 - air_time: Enabling release timeout (0ms) on pool air_time
+2017-11-21 10:33:18 INFO  air_time:1352 - air_time: Created pool air_time (minpool=10,maxpool=25,maxsize=25,idleTimeout=180)
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:33:18 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:33:18 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:33:18 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:33:18 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:33:18 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:33:18 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:33:18 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:33:18 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:33:18 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:33:18 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:33:18 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:33:18 DEBUG air_time:910 - air_time: Initialized pool with 10 new items
+2017-11-21 10:33:22 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:33:22 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:33:22 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:33:22 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:36:18 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:36:18 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:36:18 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:36:18 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:36:18 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:36:18 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:36:18 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:36:18 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:36:18 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:36:23 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:37:11 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:37:11 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:37:11 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=66.66667%)
+2017-11-21 10:37:11 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:37:11 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=75.0%)
+2017-11-21 10:37:11 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:40:11 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:41:32 DEBUG air_time:910 - air_time: Released 0 items
+2017-11-21 10:41:32 INFO  air_time:1352 - air_time: Deregistered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:41:32 INFO  MyContext:102 - deregistering jdbc driver: com.mysql.jdbc.Driver@3322919a
+2017-11-21 10:41:32 INFO  MyContext:115 - config.xml
+2017-11-21 10:41:32 INFO  MyContext:122 - file config successfully processed
+2017-11-21 10:41:32 INFO  MyContext:123 - get Config From ConfigurationManager
+2017-11-21 10:41:32 INFO  ConnectionPoolManager:591 - Loaded ConnectionPoolManager properties with encoding UTF-8
+2017-11-21 10:41:32 INFO  air_time:1352 - air_time: Registered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:41:32 WARN  air_time:1327 - air_time: Invalid releaseTimeout value null for air_time
+2017-11-21 10:41:32 DEBUG air_time:910 - air_time: Parameters changed (minpool=10,maxpool=25,maxsize=25,idleTimeout=180,cleanInterval=5000)
+2017-11-21 10:41:32 INFO  air_time:1352 - air_time: Disabling caching on pool air_time
+2017-11-21 10:41:32 INFO  air_time:1352 - air_time: Enabling release timeout (0ms) on pool air_time
+2017-11-21 10:41:32 INFO  air_time:1352 - air_time: Created pool air_time (minpool=10,maxpool=25,maxsize=25,idleTimeout=180)
+2017-11-21 10:41:32 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:41:33 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:41:33 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:41:33 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:41:33 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:41:33 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:41:33 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:41:33 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:41:33 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:41:33 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:41:33 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:41:33 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:41:33 DEBUG air_time:910 - air_time: Initialized pool with 10 new items
+2017-11-21 10:41:38 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:41:38 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:41:38 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:41:38 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:42:53 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:42:53 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:42:53 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:42:53 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:42:53 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:42:53 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:42:53 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:42:53 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:42:53 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:42:53 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:42:53 DEBUG air_time:910 - air_time: Released 10 items
+2017-11-21 10:42:53 INFO  air_time:1352 - air_time: Deregistered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:42:53 INFO  MyContext:102 - deregistering jdbc driver: com.mysql.jdbc.Driver@99dfa99
+2017-11-21 10:42:53 INFO  MyContext:115 - config.xml
+2017-11-21 10:42:54 INFO  MyContext:122 - file config successfully processed
+2017-11-21 10:42:54 INFO  MyContext:123 - get Config From ConfigurationManager
+2017-11-21 10:42:54 INFO  ConnectionPoolManager:591 - Loaded ConnectionPoolManager properties with encoding UTF-8
+2017-11-21 10:42:54 INFO  air_time:1352 - air_time: Registered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:42:54 WARN  air_time:1327 - air_time: Invalid releaseTimeout value null for air_time
+2017-11-21 10:42:54 DEBUG air_time:910 - air_time: Parameters changed (minpool=10,maxpool=25,maxsize=25,idleTimeout=180,cleanInterval=5000)
+2017-11-21 10:42:54 INFO  air_time:1352 - air_time: Disabling caching on pool air_time
+2017-11-21 10:42:54 INFO  air_time:1352 - air_time: Enabling release timeout (0ms) on pool air_time
+2017-11-21 10:42:54 INFO  air_time:1352 - air_time: Created pool air_time (minpool=10,maxpool=25,maxsize=25,idleTimeout=180)
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:42:54 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:42:54 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:42:54 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:42:54 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:42:54 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:42:54 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:42:54 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:42:54 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:42:54 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:42:54 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:42:54 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:42:54 DEBUG air_time:910 - air_time: Initialized pool with 10 new items
+2017-11-21 10:43:01 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:43:01 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:43:01 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:43:01 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:45:54 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:45:54 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:45:54 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:45:54 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:45:54 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:45:54 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:45:54 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:45:54 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:45:54 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:46:04 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:47:28 DEBUG air_time:910 - air_time: Released 0 items
+2017-11-21 10:47:28 INFO  air_time:1352 - air_time: Deregistered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:47:28 INFO  MyContext:102 - deregistering jdbc driver: com.mysql.jdbc.Driver@16de8887
+2017-11-21 10:47:35 INFO  MyContext:115 - config.xml
+2017-11-21 10:47:35 INFO  MyContext:122 - file config successfully processed
+2017-11-21 10:47:35 INFO  MyContext:123 - get Config From ConfigurationManager
+2017-11-21 10:47:35 INFO  ConnectionPoolManager:591 - Loaded ConnectionPoolManager properties with encoding UTF-8
+2017-11-21 10:47:35 INFO  air_time:1352 - air_time: Registered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:47:35 WARN  air_time:1327 - air_time: Invalid releaseTimeout value null for air_time
+2017-11-21 10:47:35 DEBUG air_time:910 - air_time: Parameters changed (minpool=10,maxpool=25,maxsize=25,idleTimeout=180,cleanInterval=5000)
+2017-11-21 10:47:35 INFO  air_time:1352 - air_time: Disabling caching on pool air_time
+2017-11-21 10:47:35 INFO  air_time:1352 - air_time: Enabling release timeout (0ms) on pool air_time
+2017-11-21 10:47:35 INFO  air_time:1352 - air_time: Created pool air_time (minpool=10,maxpool=25,maxsize=25,idleTimeout=180)
+2017-11-21 10:47:35 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:47:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:47:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:47:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:47:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:47:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:47:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:47:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:47:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:47:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:47:36 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:47:36 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:47:36 DEBUG air_time:910 - air_time: Initialized pool with 10 new items
+2017-11-21 10:48:02 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:48:02 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:48:02 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:48:02 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:48:02 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:48:02 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:48:06 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:48:06 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:48:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:48:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:48:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:48:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:50:36 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:50:36 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:50:36 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:50:36 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:50:36 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:50:36 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:50:36 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:50:36 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:50:36 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:51:11 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:55:59 DEBUG air_time:910 - air_time: Released 0 items
+2017-11-21 10:55:59 INFO  air_time:1352 - air_time: Deregistered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:55:59 INFO  MyContext:102 - deregistering jdbc driver: com.mysql.jdbc.Driver@3fb8d1e3
+2017-11-21 10:55:59 INFO  MyContext:115 - config.xml
+2017-11-21 10:55:59 INFO  MyContext:122 - file config successfully processed
+2017-11-21 10:55:59 INFO  MyContext:123 - get Config From ConfigurationManager
+2017-11-21 10:55:59 INFO  ConnectionPoolManager:591 - Loaded ConnectionPoolManager properties with encoding UTF-8
+2017-11-21 10:55:59 INFO  air_time:1352 - air_time: Registered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:55:59 WARN  air_time:1327 - air_time: Invalid releaseTimeout value null for air_time
+2017-11-21 10:55:59 DEBUG air_time:910 - air_time: Parameters changed (minpool=10,maxpool=25,maxsize=25,idleTimeout=180,cleanInterval=5000)
+2017-11-21 10:56:00 INFO  air_time:1352 - air_time: Disabling caching on pool air_time
+2017-11-21 10:56:00 INFO  air_time:1352 - air_time: Enabling release timeout (0ms) on pool air_time
+2017-11-21 10:56:00 INFO  air_time:1352 - air_time: Created pool air_time (minpool=10,maxpool=25,maxsize=25,idleTimeout=180)
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:00 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:00 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:00 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:00 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:00 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:00 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:00 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:00 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:00 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:00 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:00 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:00 DEBUG air_time:910 - air_time: Initialized pool with 10 new items
+2017-11-21 10:56:07 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:56:07 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:56:07 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:56:07 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:56:13 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:56:13 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:56:13 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:56:13 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:56:13 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:56:13 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:56:13 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:56:13 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:56:13 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:56:13 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:56:13 DEBUG air_time:910 - air_time: Released 10 items
+2017-11-21 10:56:13 INFO  air_time:1352 - air_time: Deregistered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:56:13 INFO  MyContext:102 - deregistering jdbc driver: com.mysql.jdbc.Driver@5b1b2c4a
+2017-11-21 10:56:17 INFO  MyContext:115 - config.xml
+2017-11-21 10:56:17 INFO  MyContext:122 - file config successfully processed
+2017-11-21 10:56:17 INFO  MyContext:123 - get Config From ConfigurationManager
+2017-11-21 10:56:17 INFO  ConnectionPoolManager:591 - Loaded ConnectionPoolManager properties with encoding UTF-8
+2017-11-21 10:56:17 INFO  air_time:1352 - air_time: Registered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 10:56:17 WARN  air_time:1327 - air_time: Invalid releaseTimeout value null for air_time
+2017-11-21 10:56:17 DEBUG air_time:910 - air_time: Parameters changed (minpool=10,maxpool=25,maxsize=25,idleTimeout=180,cleanInterval=5000)
+2017-11-21 10:56:17 INFO  air_time:1352 - air_time: Disabling caching on pool air_time
+2017-11-21 10:56:17 INFO  air_time:1352 - air_time: Enabling release timeout (0ms) on pool air_time
+2017-11-21 10:56:17 INFO  air_time:1352 - air_time: Created pool air_time (minpool=10,maxpool=25,maxsize=25,idleTimeout=180)
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:17 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:17 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:17 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:17 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:17 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:17 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:17 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:17 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:17 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 10:56:17 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 10:56:17 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 10:56:17 DEBUG air_time:910 - air_time: Initialized pool with 10 new items
+2017-11-21 10:56:30 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:56:30 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:56:30 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:56:30 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:43 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:43 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:43 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:43 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:58:48 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:08 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:09 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:09 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:09 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 10:59:09 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 10:59:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:59:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:59:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:59:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:59:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:59:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:59:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:59:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:59:17 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 10:59:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:02:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:03:09 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:03:09 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:03:09 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:03:09 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:03:09 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:03:09 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:03:09 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 11:03:09 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:04:06 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 11:04:06 DEBUG air_time:910 - air_time: Released 1 item
+2017-11-21 11:04:06 INFO  air_time:1352 - air_time: Deregistered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 11:04:06 INFO  MyContext:102 - deregistering jdbc driver: com.mysql.jdbc.Driver@3fb8d1e3
+2017-11-21 11:04:09 INFO  MyContext:115 - config.xml
+2017-11-21 11:04:09 INFO  MyContext:122 - file config successfully processed
+2017-11-21 11:04:09 INFO  MyContext:123 - get Config From ConfigurationManager
+2017-11-21 11:04:09 INFO  ConnectionPoolManager:591 - Loaded ConnectionPoolManager properties with encoding UTF-8
+2017-11-21 11:04:09 INFO  air_time:1352 - air_time: Registered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 11:04:09 WARN  air_time:1327 - air_time: Invalid releaseTimeout value null for air_time
+2017-11-21 11:04:09 DEBUG air_time:910 - air_time: Parameters changed (minpool=10,maxpool=25,maxsize=25,idleTimeout=180,cleanInterval=5000)
+2017-11-21 11:04:09 INFO  air_time:1352 - air_time: Disabling caching on pool air_time
+2017-11-21 11:04:09 INFO  air_time:1352 - air_time: Enabling release timeout (0ms) on pool air_time
+2017-11-21 11:04:09 INFO  air_time:1352 - air_time: Created pool air_time (minpool=10,maxpool=25,maxsize=25,idleTimeout=180)
+2017-11-21 11:04:09 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 11:04:10 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 11:04:10 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 11:04:10 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 11:04:10 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 11:04:10 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 11:04:10 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 11:04:10 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 11:04:10 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 11:04:10 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 11:04:10 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 11:04:10 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 11:04:10 DEBUG air_time:910 - air_time: Initialized pool with 10 new items
+2017-11-21 11:07:10 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 11:07:10 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 11:07:10 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 11:07:10 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 11:07:10 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 11:07:10 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 11:07:10 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 11:07:10 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 11:07:10 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 11:07:10 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 11:10:28 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 11:10:28 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 11:10:28 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=0.0%)
+2017-11-21 11:10:28 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:28 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=50.0%)
+2017-11-21 11:10:28 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=66.66667%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=75.0%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=80.0%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=83.33333%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=85.71429%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=87.5%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=88.88889%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=90.0%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=90.909096%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=91.66667%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=92.30769%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=92.85714%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=93.333336%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=93.75%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=94.117645%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=94.44444%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=94.73685%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=95.0%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=95.2381%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=95.454544%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=95.652176%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=95.83333%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.0%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.15385%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.296295%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.42857%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.55172%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.666664%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.77419%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.875%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.969696%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.05882%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.14286%)
+2017-11-21 11:10:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:12:06 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.22222%)
+2017-11-21 11:12:06 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:12:06 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.2973%)
+2017-11-21 11:12:06 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:12:06 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.368416%)
+2017-11-21 11:12:06 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:12:06 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.4359%)
+2017-11-21 11:12:06 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:12:06 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.5%)
+2017-11-21 11:12:06 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:12:14 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.560974%)
+2017-11-21 11:12:14 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:12:14 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.61904%)
+2017-11-21 11:12:14 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:12:14 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.674416%)
+2017-11-21 11:12:14 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:12:19 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.72727%)
+2017-11-21 11:12:19 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:13:03 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.77778%)
+2017-11-21 11:13:03 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:13:03 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.82609%)
+2017-11-21 11:13:03 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:13:08 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.87234%)
+2017-11-21 11:13:08 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:13:08 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.91667%)
+2017-11-21 11:13:08 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:13:08 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.95918%)
+2017-11-21 11:13:08 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:13:08 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.0%)
+2017-11-21 11:13:08 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:13:08 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.039215%)
+2017-11-21 11:13:08 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:13:23 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.07692%)
+2017-11-21 11:13:23 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:13:23 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.11321%)
+2017-11-21 11:13:23 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:13:23 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.14815%)
+2017-11-21 11:13:23 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:13:23 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.18182%)
+2017-11-21 11:13:23 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:13:23 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.21429%)
+2017-11-21 11:13:23 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.24561%)
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.27586%)
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.305084%)
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.333336%)
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.36066%)
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.3871%)
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.4127%)
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.4375%)
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.46154%)
+2017-11-21 11:14:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:17:23 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 11:17:43 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 11:17:43 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 11:17:43 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.969696%)
+2017-11-21 11:17:43 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:17:43 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.01493%)
+2017-11-21 11:17:43 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:18:45 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.05882%)
+2017-11-21 11:18:45 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:18:45 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.10145%)
+2017-11-21 11:18:45 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.14286%)
+2017-11-21 11:21:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.1831%)
+2017-11-21 11:21:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.22222%)
+2017-11-21 11:21:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.26027%)
+2017-11-21 11:21:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.2973%)
+2017-11-21 11:21:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:35 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.333336%)
+2017-11-21 11:21:35 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:35 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.368416%)
+2017-11-21 11:21:35 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:35 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.402596%)
+2017-11-21 11:21:35 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:35 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.4359%)
+2017-11-21 11:21:35 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:35 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.46835%)
+2017-11-21 11:21:35 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.5%)
+2017-11-21 11:21:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.53087%)
+2017-11-21 11:21:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.560974%)
+2017-11-21 11:21:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.59036%)
+2017-11-21 11:21:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.61904%)
+2017-11-21 11:21:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:38 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.64706%)
+2017-11-21 11:21:38 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:38 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.674416%)
+2017-11-21 11:21:38 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:38 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.70115%)
+2017-11-21 11:21:38 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:38 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.72727%)
+2017-11-21 11:21:38 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:38 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.75281%)
+2017-11-21 11:21:38 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:44 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.77778%)
+2017-11-21 11:21:44 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:44 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.8022%)
+2017-11-21 11:21:44 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:44 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.82609%)
+2017-11-21 11:21:44 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:44 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.849464%)
+2017-11-21 11:21:44 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:21:44 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.87234%)
+2017-11-21 11:21:44 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:22:42 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.89474%)
+2017-11-21 11:22:42 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:22:42 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.91667%)
+2017-11-21 11:22:42 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:22:42 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.93814%)
+2017-11-21 11:22:42 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:22:42 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.95918%)
+2017-11-21 11:22:42 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:22:42 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.9798%)
+2017-11-21 11:22:42 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:23:56 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.0%)
+2017-11-21 11:23:56 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:23:56 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.019806%)
+2017-11-21 11:23:56 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:26:58 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 11:36:38 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 11:36:38 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 11:36:38 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.05882%)
+2017-11-21 11:36:38 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:36:38 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.08738%)
+2017-11-21 11:36:38 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:36:38 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.11539%)
+2017-11-21 11:36:38 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:36:38 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.14286%)
+2017-11-21 11:36:38 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:36:38 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.16981%)
+2017-11-21 11:36:38 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:38:14 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.196266%)
+2017-11-21 11:38:14 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:38:14 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.22222%)
+2017-11-21 11:38:14 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:38:14 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.24771%)
+2017-11-21 11:38:14 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:38:14 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.27273%)
+2017-11-21 11:38:14 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:38:14 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.2973%)
+2017-11-21 11:38:14 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:38:28 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.32143%)
+2017-11-21 11:38:28 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:38:28 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.34513%)
+2017-11-21 11:38:28 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:38:28 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.368416%)
+2017-11-21 11:38:28 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:38:28 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.391304%)
+2017-11-21 11:38:28 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:38:28 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.41379%)
+2017-11-21 11:38:28 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:38:42 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.4359%)
+2017-11-21 11:38:42 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:38:42 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.45763%)
+2017-11-21 11:38:42 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:38:42 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.47899%)
+2017-11-21 11:38:42 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:38:42 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.5%)
+2017-11-21 11:38:42 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:38:42 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.52066%)
+2017-11-21 11:38:42 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:19 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.540985%)
+2017-11-21 11:39:19 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:19 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.560974%)
+2017-11-21 11:39:19 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:19 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.58065%)
+2017-11-21 11:39:19 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:19 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.6%)
+2017-11-21 11:39:19 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:19 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.61904%)
+2017-11-21 11:39:19 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:24 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.637794%)
+2017-11-21 11:39:24 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:24 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.65625%)
+2017-11-21 11:39:24 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:24 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.674416%)
+2017-11-21 11:39:24 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:24 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.69231%)
+2017-11-21 11:39:24 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:24 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.70992%)
+2017-11-21 11:39:24 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.72727%)
+2017-11-21 11:39:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.74436%)
+2017-11-21 11:39:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.76119%)
+2017-11-21 11:39:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.77778%)
+2017-11-21 11:39:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.79411%)
+2017-11-21 11:39:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:27 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.81022%)
+2017-11-21 11:39:27 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:27 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.82609%)
+2017-11-21 11:39:27 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:27 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.84173%)
+2017-11-21 11:39:27 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:27 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.85714%)
+2017-11-21 11:39:27 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:27 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.87234%)
+2017-11-21 11:39:27 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:28 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.88733%)
+2017-11-21 11:39:28 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:28 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.90209%)
+2017-11-21 11:39:28 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:28 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.91667%)
+2017-11-21 11:39:28 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:28 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.93103%)
+2017-11-21 11:39:28 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:28 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.945206%)
+2017-11-21 11:39:28 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:37 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.95918%)
+2017-11-21 11:39:37 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:37 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.97297%)
+2017-11-21 11:39:37 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:37 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.98658%)
+2017-11-21 11:39:37 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:37 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.0%)
+2017-11-21 11:39:37 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:39:37 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.013245%)
+2017-11-21 11:39:37 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:41:29 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.02631%)
+2017-11-21 11:41:29 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:41:29 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.039215%)
+2017-11-21 11:41:29 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:41:29 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.05195%)
+2017-11-21 11:41:29 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:41:29 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.064514%)
+2017-11-21 11:41:29 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:41:29 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.07692%)
+2017-11-21 11:41:29 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:41:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.08917%)
+2017-11-21 11:41:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:41:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.101265%)
+2017-11-21 11:41:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:41:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.11321%)
+2017-11-21 11:41:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:41:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.125%)
+2017-11-21 11:41:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:41:30 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.13664%)
+2017-11-21 11:41:30 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 11:44:33 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 13:36:35 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 13:36:35 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 13:36:35 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.53087%)
+2017-11-21 13:36:35 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:36:35 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.54601%)
+2017-11-21 13:36:35 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:39:35 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 13:53:34 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 13:53:34 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 13:53:34 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.951225%)
+2017-11-21 13:53:34 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:34 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.969696%)
+2017-11-21 13:53:34 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=96.98795%)
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.00599%)
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.02381%)
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.04142%)
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.05882%)
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.07602%)
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.093025%)
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.109825%)
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.126434%)
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.14286%)
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.159096%)
+2017-11-21 13:53:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:49 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.17514%)
+2017-11-21 13:53:49 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:49 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.19101%)
+2017-11-21 13:53:49 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:49 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.2067%)
+2017-11-21 13:53:49 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:49 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.22222%)
+2017-11-21 13:53:49 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.23757%)
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.25275%)
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.26776%)
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.28261%)
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.2973%)
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.31183%)
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.3262%)
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.34042%)
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.35449%)
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.368416%)
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.3822%)
+2017-11-21 13:53:52 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:53 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.39583%)
+2017-11-21 13:53:53 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:53 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.409325%)
+2017-11-21 13:53:53 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:53 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.42268%)
+2017-11-21 13:53:53 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:53 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.4359%)
+2017-11-21 13:53:53 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:58 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.44898%)
+2017-11-21 13:53:58 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:58 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.46193%)
+2017-11-21 13:53:58 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:58 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.47475%)
+2017-11-21 13:53:58 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:53:58 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.487434%)
+2017-11-21 13:53:58 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.5%)
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.512436%)
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.52475%)
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.53694%)
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.54902%)
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.560974%)
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.572815%)
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.58454%)
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.59615%)
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.60765%)
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.61904%)
+2017-11-21 13:54:00 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 13:57:04 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 14:00:45 DEBUG air_time:910 - air_time: Released 0 items
+2017-11-21 14:00:45 INFO  air_time:1352 - air_time: Deregistered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 14:00:45 INFO  MyContext:102 - deregistering jdbc driver: com.mysql.jdbc.Driver@3fb8d1e3
+2017-11-21 14:00:46 INFO  MyContext:115 - config.xml
+2017-11-21 14:00:46 INFO  MyContext:122 - file config successfully processed
+2017-11-21 14:00:46 INFO  MyContext:123 - get Config From ConfigurationManager
+2017-11-21 14:00:46 INFO  ConnectionPoolManager:591 - Loaded ConnectionPoolManager properties with encoding UTF-8
+2017-11-21 14:00:46 INFO  air_time:1352 - air_time: Registered JDBC driver com.mysql.jdbc.Driver
+2017-11-21 14:00:46 WARN  air_time:1327 - air_time: Invalid releaseTimeout value null for air_time
+2017-11-21 14:00:46 DEBUG air_time:910 - air_time: Parameters changed (minpool=10,maxpool=25,maxsize=25,idleTimeout=180,cleanInterval=5000)
+2017-11-21 14:00:46 INFO  air_time:1352 - air_time: Disabling caching on pool air_time
+2017-11-21 14:00:46 INFO  air_time:1352 - air_time: Enabling release timeout (0ms) on pool air_time
+2017-11-21 14:00:46 INFO  air_time:1352 - air_time: Created pool air_time (minpool=10,maxpool=25,maxsize=25,idleTimeout=180)
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 14:00:46 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 14:00:46 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 14:00:46 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 14:00:46 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 14:00:46 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 14:00:46 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 14:00:46 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 14:00:46 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 14:00:46 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 14:00:46 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 14:00:47 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 14:00:47 DEBUG air_time:910 - air_time: Initialized new item in pool
+2017-11-21 14:00:47 DEBUG air_time:910 - air_time: Initialized pool with 10 new items
+2017-11-21 14:01:02 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 14:01:02 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 14:01:02 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 14:01:02 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkout - 1/10 (HitRate=100.0%)
+2017-11-21 14:01:43 DEBUG air_time:910 - air_time: Checkin  - 0/10
+2017-11-21 14:03:47 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 14:03:47 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 14:03:47 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 14:03:47 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 14:03:47 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 14:03:47 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 14:03:47 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 14:03:47 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 14:03:47 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:16 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:22 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:04:54 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:07:46 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:07:46 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:07:46 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:07:46 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=100.0%)
+2017-11-21 14:08:36 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 14:11:37 INFO  air_time:885 - air_time: Destroyed connection
+2017-11-21 20:57:51 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-21 20:57:51 INFO  air_time:885 - air_time: Created a new connection
+2017-11-21 20:57:51 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.333336%)
+2017-11-21 20:57:51 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 20:57:51 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.36066%)
+2017-11-21 20:57:51 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 20:57:51 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=98.3871%)
+2017-11-21 20:57:51 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-21 21:00:56 INFO  air_time:885 - air_time: Destroyed connection

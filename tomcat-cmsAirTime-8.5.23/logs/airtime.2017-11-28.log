@@ -1,0 +1,79 @@
+2017-11-28 22:31:00 INFO  air_time:885 - air_time: Getting connection (user/password): jdbc:mysql://10.58.98.53:3307/htc_payment?useUnicode=true&characterEncoding=UTF-8
+2017-11-28 22:31:00 INFO  air_time:885 - air_time: Created a new connection
+2017-11-28 22:31:00 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.44681%)
+2017-11-28 22:31:00 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:00 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.45223%)
+2017-11-28 22:31:00 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:02 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.45763%)
+2017-11-28 22:31:02 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:04 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.463%)
+2017-11-28 22:31:04 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:05 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.46835%)
+2017-11-28 22:31:05 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:05 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.47369%)
+2017-11-28 22:31:05 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:05 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.47899%)
+2017-11-28 22:31:05 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:05 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.484276%)
+2017-11-28 22:31:05 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:11 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.48954%)
+2017-11-28 22:31:11 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:11 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.49478%)
+2017-11-28 22:31:11 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:11 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.5%)
+2017-11-28 22:31:11 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:11 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.5052%)
+2017-11-28 22:31:11 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:11 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.510376%)
+2017-11-28 22:31:11 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:15 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.515526%)
+2017-11-28 22:31:15 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:15 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.52066%)
+2017-11-28 22:31:15 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:15 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.52577%)
+2017-11-28 22:31:15 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:15 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.53087%)
+2017-11-28 22:31:15 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:15 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.535934%)
+2017-11-28 22:31:15 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:18 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.540985%)
+2017-11-28 22:31:18 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:18 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.54601%)
+2017-11-28 22:31:18 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:18 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.55102%)
+2017-11-28 22:31:18 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:18 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.55601%)
+2017-11-28 22:31:18 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.560974%)
+2017-11-28 22:31:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.565926%)
+2017-11-28 22:31:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.57085%)
+2017-11-28 22:31:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:26 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.57576%)
+2017-11-28 22:31:26 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:31 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.58065%)
+2017-11-28 22:31:31 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:31 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.58551%)
+2017-11-28 22:31:31 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:31 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.59036%)
+2017-11-28 22:31:31 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:31 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.59519%)
+2017-11-28 22:31:31 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:35 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.6%)
+2017-11-28 22:31:35 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:39 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.60479%)
+2017-11-28 22:31:39 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:50 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.60956%)
+2017-11-28 22:31:50 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:50 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.61431%)
+2017-11-28 22:31:50 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:50 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.61904%)
+2017-11-28 22:31:50 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:50 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.62376%)
+2017-11-28 22:31:50 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:31:53 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.628456%)
+2017-11-28 22:31:53 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:32:02 DEBUG air_time:910 - air_time: Checkout - 1/1 (HitRate=97.63313%)
+2017-11-28 22:32:02 DEBUG air_time:910 - air_time: Checkin  - 0/1
+2017-11-28 22:35:05 INFO  air_time:885 - air_time: Destroyed connection
